@@ -20,7 +20,7 @@ const Hero = () => {
 
       <div className="hero-body">
         <div className="container">
-          {/* {game} */}
+          <h1 className="nameTitle">Michael Adair</h1>
         </div>
       </div>
 
