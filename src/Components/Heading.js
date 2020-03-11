@@ -3,15 +3,15 @@ import React, { useState, useEffect } from 'react'
 
 const Heading = () => {
 
-  const [offset, setOffset] = useState(0)
+  // const [offset, setOffset] = useState(0)
 
-  const parallaxShift = () => {
-    setOffset(window.pageYOffset)
-  }
+  // const parallaxShift = () => {
+  //   setOffset(window.pageYOffset)
+  // }
 
-  useEffect(() => {
-    window.addEventListener('scroll', parallaxShift)
-  }, [offset])
+  // useEffect(() => {
+  //   window.addEventListener('scroll', parallaxShift)
+  // }, [offset])
 
 
   return <>
