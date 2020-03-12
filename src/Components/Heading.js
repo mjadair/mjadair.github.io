@@ -16,9 +16,9 @@ const Heading = () => {
 
   return <>
 
-    <section className="hero is-light is-fullheight" style={{ backgroundPositionY: -offset / 2 }}>
+    <section className="hero is-light is-fullheight heading">
 
-      <div className="hero-body heading">
+      <div className="hero-body">
         <div className="container">
           <h1 className="nameTitle text-flicker-in-glow">Michael Adair</h1>
         </div>

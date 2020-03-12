@@ -1,8 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
-  max-height: 100vh;
-  overflow-y: scroll;
   scroll-behavior: smooth;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
   background-color: black;
+  color: white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  #root {
+    width: 100%;
+  }
 }
 
 .section {
@@ -10,9 +26,22 @@ html {
 }
 
 
+
+#nav-styling {
+  background-color: gold;
+  display: flex;
+  justify-content: center;
+  a:hover {
+    background-color: transparent;
+    border-bottom: 3px solid white;
+  }
+}
+
+
 .heading{
-  background-color: #2d3436;
-  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  // background-color: #2d3436;
+  background: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  width: 100vw;
   margin: 0;
 
 }
