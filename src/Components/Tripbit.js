@@ -17,7 +17,7 @@ const TripBit = ({ page }) => {
         <div className="tile is-parent">
           <article className="tile is-child notification">
             <div className="content">
-              <p className="title">TripBit</p>
+              <p className="title project-title">TripBit</p>
               <p className="subtitle">With even more content</p>
               <div className="content">
                 -- Content --
@@ -30,7 +30,7 @@ const TripBit = ({ page }) => {
             <div className="tile is-parent is-vertical">
 
               <figure className="image">
-                <img src={TripBitHomeDesktop} />
+                <img src={TripBitHomeDesktop} id="home-desktop"/>
               </figure>
 
             </div>
@@ -45,17 +45,17 @@ const TripBit = ({ page }) => {
           <div className="tile is-parent is-12">
             <article className="tile is-child notification">
               <figure className="image">
-                <img src={TripBitMapDesktop} />
+                <img src={TripBitMapDesktop} className="bottom-row"/>
               </figure>
             </article>
             <article className="tile is-child notification">
               <figure className="image">
-                <img src={TripBitBadges2Desktop} />
+                <img src={TripBitBadges2Desktop} className="bottom-row" />
               </figure>
             </article>
             <article className="tile is-child notification">
               <figure className="image">
-                <img src={TripBitGroupsDesktop} />
+                <img src={TripBitGroupsDesktop} className="bottom-row"/>
               </figure>
             </article>
           </div>
