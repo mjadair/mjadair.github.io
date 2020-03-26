@@ -1,3 +1,5 @@
+// Main ==========================================================================================
+
 * {
   box-sizing: border-box;
 }
@@ -26,6 +28,29 @@ body {
 }
 
 
+.about-body{
+  background-color: whitesmoke;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.nameTitle{
+  color: gold;
+  font-size: 10vh;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'Monoton', cursive;
+
+}
+
+
+//Nav =========================================================================================================
+.navbar{
+  background-color: gold;
+}
 
 #nav-styling {
   background-color: gold;
@@ -46,39 +71,13 @@ body {
 
 }
 
-
 .heading{
-  // background-color: #2d3436;
   background: linear-gradient(315deg, #2d3436 0%, #000000 74%);
   width: 100vw;
   margin: 0;
-
 }
 
-.about-body{
-  background-color: whitesmoke;
-  // background-image: linear-gradient(315deg, #2d3436 0%, white 74%);
-
-}
-
-.container{
-  display: flex;
-  justify-content: center;
-
-}
-
-.navbar{
-  background-color: gold;
-}
-
-.nameTitle{
-  color: gold;
-  font-size: 10vh;
-  text-align: center;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  font-family: 'Monoton', cursive;
-
-}
+//Projects =================================================================================================
 
 #projects{
   padding-top: 2vh;
@@ -110,6 +109,10 @@ body {
 .text-flicker-in-glow {
 	-webkit-animation: text-flicker-in-glow 4s linear both;
 	        animation: text-flicker-in-glow 4s linear both;
+}
+
+.notification{
+  padding: 0.5vw;
 }
 
 /* ----------------------------------------------
