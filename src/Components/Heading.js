@@ -16,7 +16,7 @@ const Heading = () => {
 
   return <>
 
-    <section className="hero is-light is-fullheight heading">
+    <section className="hero is-light is-fullheight heading" id='heading'>
 
       <div className="hero-body">
         <div className="container">

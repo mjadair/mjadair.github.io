@@ -6,7 +6,7 @@ const About = () => {
 
 
   return <section
-    className='hero is-fullheight'
+    className='hero is-fullheight' id='contact'
   >
 
     <div className="hero-body about-body">

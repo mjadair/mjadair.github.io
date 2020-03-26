@@ -24,20 +24,20 @@ const config = {
 const Projects = () => {
 
   return <section
-  className='hero is-fullheight heading'
->
+    className='hero is-fullheight heading' id="projects"
+  >
 
-  <div className="hero-body">
-    <div className="container has-text-centered">
-      <h1 className="title">
-        Projects
+    <div className="hero-body">
+      <div className="container has-text-centered">
+        <h1 className="title">
+          Projects
       </h1>
-      <p></p>
-      <br />
-      <p></p>
+        <p></p>
+        <br />
+        <p></p>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
 }
 export default Projects
@@ -50,6 +50,6 @@ export default Projects
 
 
 
-    
-      
+
+
 

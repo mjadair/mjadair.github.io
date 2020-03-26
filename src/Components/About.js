@@ -7,7 +7,7 @@ const About = () => {
 
   return <section
     className='hero is-fullheight'
-  >
+    id='about'>
 
     <div className="hero-body about-body">
       <div className="container has-text-centered">
