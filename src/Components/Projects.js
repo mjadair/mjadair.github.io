@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import TripBit from './Tripbit'
+import Kitchen from './Kitchen'
+import Nottify from './Nottify'
 
 
 const lastPage = 6
@@ -37,6 +39,8 @@ const Projects = () => {
         <a className={'arrow level-item is-centered is-size-5 ' + `${page === 1 ? '' : 'active'}`} onClick={handlePrevious}><i className="fas fa-angle-left"></i></a>
         <a className={'pagenum level-item is-centered is-size-5 is-family-secondary ' + `${page === 1 ? 'current' : ''}`} onClick={handlePage} id='1' aria-label="Goto page 1">1</a>
         <a className={'pagenum level-item is-centered is-size-5 is-family-secondary ' + `${page === 2 ? 'current' : ''}`} onClick={handlePage} id='2' aria-label="Goto page 2">2</a>
+        <a className={'pagenum level-item is-centered is-size-5 is-family-secondary ' + `${page === 3 ? 'current' : ''}`} onClick={handlePage} id='3' aria-label="Goto page 3">3</a>
+        <a className={'pagenum level-item is-centered is-size-5 is-family-secondary ' + `${page === 4 ? 'current' : ''}`} onClick={handlePage} id='4' aria-label="Goto page 4">4</a>
         <a className={'arrow level-item is-centered is-size-5 ' + `${page === lastPage ? '' : 'active'}`} onClick={handleNext}><i className="fas fa-angle-right"></i></a>
       </nav>
     </div>
@@ -45,54 +49,8 @@ const Projects = () => {
 
 
     <TripBit page={page} />
-
-    <div className={'slide ' + `${page === 2 ? 'selected' : ''}`} id="slide2">
-      <div className="tile is-ancestor">
-        <div className="tile is-vertical is-8">
-          <div className="tile">
-            <div className="tile is-parent is-vertical">
-              <article className="tile is-child notification ">
-                <p className="title">Vertical...</p>
-                <p className="subtitle">Top tile</p>
-              </article>
-              <article className="tile is-child notification ">
-                <p className="title">...tiles</p>
-                <p className="subtitle">Bottom tile</p>
-              </article>
-            </div>
-            <div className="tile is-parent">
-              <article className="tile is-child notification ">
-                <p className="title">Middle tile</p>
-                <p className="subtitle">With an image</p>
-                <figure className="image is-4by3">
-                  <img src="https://bulma.io/images/placeholders/640x480.png" />
-                </figure>
-              </article>
-            </div>
-          </div>
-          <div className="tile is-parent">
-            <article className="tile is-child notification">
-              <p className="title">Wide tile</p>
-              <p className="subtitle">Aligned with the right tile</p>
-              <div className="content">
-                -- Content --
-              </div>
-            </article>
-          </div>ß
-        </div>
-        <div className="tile is-parent">
-          <article className="tile is-child notification">
-            <div className="content">
-              <p className="title">Tall tile</p>
-              <p className="subtitle">With even more content</p>
-              <div className="content">
-                -- HERE IS A THING --
-              </div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </div>
+    <Kitchen page={page} />
+    <Nottify page={page} />
 
 
   </div>
