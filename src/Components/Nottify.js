@@ -16,7 +16,7 @@ const Nottify = ({ page }) => {
         <div className="tile is-parent">
           <article className="tile is-child notification">
             <div className="content">
-              <p className="title project-title">Nottify</p>
+              <p className="title project-title" id="nottify-title">Nottify</p>
               <p className="subtitle">With even more content</p>
               <div className="content">
                 -- Content --

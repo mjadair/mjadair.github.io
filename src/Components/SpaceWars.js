@@ -1,23 +1,23 @@
 import React from 'react'
 
-import KitchenHomeDesktop from '../assets/KitchenHomeDesktop.png'
-import KitchenRecipeDesktop from '../assets/KitchenRecipeDesktop.png'
-import KitchenRecipeMobile from '../assets/KitchenRecipeMobile.png'
-import KitchenRecipesDesktop from '../assets/KitchenRecipesDesktop.png'
+import SpaceWarsBattle from '../assets/SpaceWarsBattle.png'
+import SpaceWarsBattle2 from '../assets/SpaceWarsBattle2.png'
+import SpaceWarsBoss from '../assets/SpaceWarsBoss.png'
+import SpaceWarsIntro from '../assets/SpaceWarsIntro.png'
 
 
 
 
-const Kitchen = ({ page }) => {
+const SpaceWars = ({ page }) => {
 
   return <div id="projects">
 
-    <div className={'slide ' + `${page === 2 ? 'selected' : ''}`} id="slide2">
+    <div className={'slide ' + `${page === 4 ? 'selected' : ''}`} id="slide4">
       <div className="tile is-ancestor">
         <div className="tile is-parent">
           <article className="tile is-child notification">
             <div className="content">
-              <p className="title project-title" id="kitchen-title">The Kitchen</p>
+              <p className="title project-title" id="spacewars-title">SPACE WARS</p>
               <p className="subtitle">With even more content</p>
               <div className="content">
                 -- Content --
@@ -30,14 +30,14 @@ const Kitchen = ({ page }) => {
             <div className="tile is-parent is-vertical">
 
               <figure className="image">
-                <img src={KitchenHomeDesktop} id="home-desktop" />
+                <img src={SpaceWarsBattle2} id="home-desktop" />
               </figure>
 
             </div>
-            <div className="tile is-parent is-4">
+            <div className="tile is-parent is-6">
               <article className="tile is-child notification ">
                 <figure className="image">
-                  <img src={KitchenRecipeMobile} />
+                  <img src={SpaceWarsBoss} />
                 </figure>
               </article>
             </div>
@@ -45,12 +45,12 @@ const Kitchen = ({ page }) => {
           <div className="tile is-parent is-12">
             <article className="tile is-child notification">
               <figure className="image">
-                <img src={KitchenRecipesDesktop} className="bottom-row" />
+                <img src={SpaceWarsBattle} className="bottom-row" />
               </figure>
             </article>
             <article className="tile is-child notification">
               <figure className="image">
-                <img src={KitchenRecipeDesktop} className="bottom-row" />
+                <img src={SpaceWarsIntro} className="bottom-row" />
               </figure>
             </article>
           </div>
@@ -64,4 +64,4 @@ const Kitchen = ({ page }) => {
 }
 
 
-export default Kitchen
+export default SpaceWars

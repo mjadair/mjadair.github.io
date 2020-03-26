@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import TripBit from './Tripbit'
 import Kitchen from './Kitchen'
 import Nottify from './Nottify'
+import SpaceWars from './SpaceWars'
 
 
 const lastPage = 6
@@ -51,6 +52,7 @@ const Projects = () => {
     <TripBit page={page} />
     <Kitchen page={page} />
     <Nottify page={page} />
+    <SpaceWars page={page} />
 
 
   </div>

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700');
+
+
 // Main ==========================================================================================
 
 * {
@@ -118,17 +121,26 @@ body {
 }
 
 
-
+.title.project-title{
+  color: gold;
+  font-size: 7vh;
+}
 
 
 
 
 //TripBit=======================================================================================
 
-.title.project-title{
-  color: gold;
-  font-size: 7vh;
+
+#tripbit-title{
+  font-family: 'Cabin Sketch', sans-serif;
+  font-family: 'Cabin Sketch', sans-serif;
+  background-image: linear-gradient(to top right, rgb(97, 67, 0), #dfa62b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
+
 
 #home-desktop{
   height: 150%;
@@ -138,6 +150,43 @@ img.bottom-row{
   height: 30vh;
 }
 
+
+
+//Kitchen===============================================================================
+
+#kitchen-title{
+  font-family: 'Courier New', Courier, monospace;
+  color: whitesmoke;
+}
+
+
+
+
+//Nottify=================================================================================
+
+
+#nottify-title{
+  font-family: 'Megrim', cursive;
+  color: whitesmoke;
+}
+
+
+
+
+//SpaceWars==================================================================================
+
+
+#spacewars-title{
+  font-family: 'VT323', monospace;
+  color: gold;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  20% {
+    opacity: 0;
+  }
+}
 
 
 /* ----------------------------------------------
