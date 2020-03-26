@@ -40,6 +40,12 @@ body {
   }
 }
 
+.is-family-secondary {
+  color: gold;
+  font-family: 'Monoton', cursive;
+
+}
+
 
 .heading{
   // background-color: #2d3436;
@@ -74,11 +80,31 @@ body {
 
 }
 
+#projects{
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
 
 .title{
   color: gold;
   font-family: 'Monoton', cursive;
   font-size: 8vh;
+}
+
+.slide{
+  display: none;
+
+}
+
+.tile{
+  background-color: black;
+}
+
+.selected {
+  display: flex;
+  -webkit-animation: fade-in 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: fade-in 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 .text-flicker-in-glow {

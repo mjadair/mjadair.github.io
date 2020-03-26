@@ -3,8 +3,6 @@ import React from 'react'
 
 const About = () => {
 
-
-
   return <section
     className='hero is-fullheight' id='contact'
   >

@@ -1,43 +1,101 @@
 import React, { useState, useEffect } from 'react'
-import { useSwipeable } from 'react-swipeable'
-
-import TripBitHomeMobile from '../assets/TripBitHomeMobile.png'
-import TripBitHomeDesktop from '../assets/TripBitHomeDesktop.png'
-import TripBitBadgesDesktop from '../assets/TripBitBadgesDesktop.png'
-import TripBitBadges2Desktop from '../assets/TripBitBadges2Desktop.png'
-import TripBitMapDesktop from '../assets/TripBitMapDesktop.png'
-import TripBitGroupsDesktop from '../assets/TripBitGroupsDesktop.png'
+import TripBit from './Tripbit'
 
 
-
-const config = {
-  delta: 10,                             // min distance(px) before a swipe starts
-  preventDefaultTouchmoveEvent: true,   // preventDefault on touchmove, *See Details*
-  trackTouch: true,                      // track touch input
-  trackMouse: false,                     // track mouse input
-  rotationAngle: 0                      // set a rotation angle
-}
-
-
-
+const lastPage = 6
 
 const Projects = () => {
 
-  return <section
-    className='hero is-fullheight heading' id="projects"
-  >
+  const [page, setPage] = useState(1)
 
-    <div className="hero-body">
-      <div className="container has-text-centered">
-        <h1 className="title">
-          Projects
-      </h1>
-        <p></p>
-        <br />
-        <p></p>
+  function handlePrevious() {
+    if (page !== 1) {
+      setPage(page - 1)
+    }
+    return
+  }
+
+  function handleNext() {
+    if (page !== lastPage) {
+      setPage(page + 1)
+    }
+    return
+  }
+
+  function handlePage(e) {
+    setPage(parseInt(e.target.id))
+  }
+
+
+
+
+
+  return <div id="projects">
+
+    <div className="slidecontrol">
+      <nav className="level is-centered is-mobile" role="navigation" aria-label="pagination">
+        <a className={'arrow level-item is-centered is-size-5 ' + `${page === 1 ? '' : 'active'}`} onClick={handlePrevious}><i className="fas fa-angle-left"></i></a>
+        <a className={'pagenum level-item is-centered is-size-5 is-family-secondary ' + `${page === 1 ? 'current' : ''}`} onClick={handlePage} id='1' aria-label="Goto page 1">1</a>
+        <a className={'pagenum level-item is-centered is-size-5 is-family-secondary ' + `${page === 2 ? 'current' : ''}`} onClick={handlePage} id='2' aria-label="Goto page 2">2</a>
+        <a className={'arrow level-item is-centered is-size-5 ' + `${page === lastPage ? '' : 'active'}`} onClick={handleNext}><i className="fas fa-angle-right"></i></a>
+      </nav>
+    </div>
+
+
+
+
+    <TripBit page={page} />
+
+    <div className={'slide ' + `${page === 2 ? 'selected' : ''}`} id="slide2">
+      <div className="tile is-ancestor">
+        <div className="tile is-vertical is-8">
+          <div className="tile">
+            <div className="tile is-parent is-vertical">
+              <article className="tile is-child notification ">
+                <p className="title">Vertical...</p>
+                <p className="subtitle">Top tile</p>
+              </article>
+              <article className="tile is-child notification ">
+                <p className="title">...tiles</p>
+                <p className="subtitle">Bottom tile</p>
+              </article>
+            </div>
+            <div className="tile is-parent">
+              <article className="tile is-child notification ">
+                <p className="title">Middle tile</p>
+                <p className="subtitle">With an image</p>
+                <figure className="image is-4by3">
+                  <img src="https://bulma.io/images/placeholders/640x480.png" />
+                </figure>
+              </article>
+            </div>
+          </div>
+          <div className="tile is-parent">
+            <article className="tile is-child notification">
+              <p className="title">Wide tile</p>
+              <p className="subtitle">Aligned with the right tile</p>
+              <div className="content">
+                -- Content --
+              </div>
+            </article>
+          </div>ß
+        </div>
+        <div className="tile is-parent">
+          <article className="tile is-child notification">
+            <div className="content">
+              <p className="title">Tall tile</p>
+              <p className="subtitle">With even more content</p>
+              <div className="content">
+                -- HERE IS A THING --
+              </div>
+            </div>
+          </article>
+        </div>
       </div>
     </div>
-  </section>
+
+
+  </div>
 
 }
 export default Projects
