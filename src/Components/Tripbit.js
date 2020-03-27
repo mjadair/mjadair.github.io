@@ -18,9 +18,9 @@ const TripBit = ({ page }) => {
           <article className="tile is-child notification">
             <div className="content">
               <p className="title project-title" id="tripbit-title">TripBit</p>
-              <p className="subtitle">With even more content</p>
+              <p className="subtitle">   </p>
               <div className="content">
-                -- Content --
+               
               </div>
             </div>
           </article>

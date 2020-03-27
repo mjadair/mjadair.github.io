@@ -1,0 +1,45 @@
+import React from 'react'
+
+import SimpsonsRandomQuoteDesktop from '../assets/SimpsonsRandomQuote.png'
+
+
+const SimpsonsQuoteGenerator = ({ page }) => {
+
+  return <div id="projects">
+
+    <div className={'slide ' + `${page === 7 ? 'selected' : ''}`} id="slide7">
+      <div className="tile is-ancestor">
+        <div className="tile is-parent">
+          <article className="tile is-child notification">
+            <div className="content">
+              <p className="title project-title" id="simpsons-title">The Simpsons Random Quote Generator</p>
+              <p className="subtitle"></p>
+              <div className="content">
+
+              </div>
+            </div>
+          </article>
+        </div>
+        <div className="tile is-vertical is-8">
+          <div className="tile">
+            <div className="tile is-parent is-vertical">
+
+              <figure className="image">
+                <img src={SimpsonsRandomQuoteDesktop} id="home-desktop" />
+              </figure>
+
+            </div>
+
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div >
+
+
+}
+
+
+export default SimpsonsQuoteGenerator
