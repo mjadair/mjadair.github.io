@@ -13,6 +13,7 @@ html {
 
 html, body {
   height: 100%;
+  width: 100%; 
   font-family: 'Montserrat', sans-serif;
   background-color: black;
   color: white;
@@ -21,9 +22,10 @@ html, body {
 body {
   display: flex;
   justify-content: center;
-  #root {
-    width: 100%;
-  }
+  position: relative;
+//   // #root {
+//   //   width: 100%;
+//   // }
 }
 
 .section {
@@ -77,8 +79,8 @@ body {
 
 .heading{
   background: linear-gradient(315deg, #2d3436 0%, #000000 74%);
-  width: 100vw;
-  margin: 0;
+  // width: 100%;
+  // margin: 0;
 }
 
 //Projects =================================================================================================
@@ -136,6 +138,10 @@ body {
   font-size: 7vh;
 }
 
+.tile.is-parent.is-vertical {
+  padding-bottom: 0;
+}
+
 
 
 
@@ -153,7 +159,8 @@ body {
 
 
 #home-desktop{
-  height: 150%;
+  margin-top: 3vh;
+  height: 100%;
 }
 
 img.bottom-row{
@@ -460,4 +467,17 @@ img.bottom-row{
     opacity: 1;
     text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
   }
+}
+
+
+
+
+
+@media only screen and (min-height: 1000px) {
+
+
+
+
+
+
 }
