@@ -14,6 +14,7 @@ html {
 html, body {
   height: 100%;
   width: 100%; 
+  position: absolute;
   font-family: 'Montserrat', sans-serif;
   background-color: black;
   color: white;
@@ -22,10 +23,10 @@ html, body {
 body {
   display: flex;
   justify-content: center;
-  position: relative;
-//   // #root {
-//   //   width: 100%;
-//   // }
+ 
+  // #root {
+  //   width: 100%;
+  // }
 }
 
 .section {
