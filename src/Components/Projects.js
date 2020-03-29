@@ -15,39 +15,59 @@ import SimpsonsQuoteGenerator from './SimpsonsQuoteGenerator'
 const Projects = () => {
 
 
-  return <div className='hero is-fullheight'>
+  return <div className='hero is-fullheight' id="projects">
 
+    <h1 className="nameTitle" id="projects-title">Projects</h1>
 
     <CarouselProvider
       naturalSlideWidth={200}
-      naturalSlideHeight={100}
-      totalSlides={6}
+      naturalSlideHeight={160}
+      totalSlides={7}
+      infinite={true}
+      className="slider-container"
     >
 
 
+      <div className="columns">
+
+        <div className="column">
+          <ButtonBack>◁</ButtonBack>
+        </div>
 
 
 
-      <h1 className="nameTitle" id="projects-title">Projects</h1>
+
+        <div className="column is-four-fifths">
+          <Slider className="slider-container">
+
+
+            <TripBit Slide={Slide} />
+            <Kitchen Slide={Slide} />
+            <Nottify Slide={Slide} />
+            <SpaceWars Slide={Slide} />
+            <MonkeyTennis Slide={Slide} />
+            <JSCalculator Slide={Slide} />
+            <SimpsonsQuoteGenerator Slide={Slide} />
 
 
 
-      <Slider>
+          </Slider>
 
-        <TripBit Slide={Slide} />
-        <Kitchen Slide={Slide} />
-        <Nottify Slide={Slide} />
-        <SpaceWars Slide={Slide} />
-        <MonkeyTennis Slide={Slide} />
-        <JSCalculator Slide={Slide} />
-        <SimpsonsQuoteGenerator Slide={Slide} />
-
-      </Slider>
+        </div>
 
 
+        <div className="column">
+          <ButtonNext>▷</ButtonNext>
+        </div>
+
+
+
+
+
+      </div>
     </CarouselProvider>
 
-</div >
+  </div >
 
 }
 export default Projects

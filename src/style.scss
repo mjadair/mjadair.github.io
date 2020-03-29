@@ -24,9 +24,9 @@ body {
   display: flex;
   justify-content: center;
  
-  // #root {
-  //   width: 100%;
-  // }
+  #root {
+    width: 100%;
+  }
 }
 
 .section {
@@ -51,6 +51,24 @@ body {
   font-family: 'Monoton', cursive;
 
 }
+
+.hero-body{
+  width: 100%;
+}
+
+.columns{
+  height: 100%;
+}
+
+button{
+  border: none;
+  background: none; 
+  background-color: none;
+  font-size: 2rem;
+  color: gold;
+}
+
+
 
 
 //Nav =========================================================================================================
