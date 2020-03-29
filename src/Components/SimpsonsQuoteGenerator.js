@@ -3,9 +3,9 @@ import React from 'react'
 import SimpsonsRandomQuoteDesktop from '../assets/SimpsonsRandomQuote.png'
 
 
-const SimpsonsQuoteGenerator = ({ page }) => {
+const SimpsonsQuoteGenerator = ({ page, handlers }) => {
 
-  return <div id="projects">
+  return <div {...handlers} className="slide-in-right"  id="projects">
 
     <div className={'slide ' + `${page === 7 ? 'selected' : ''}`} id="slide7">
       <div className="tile is-ancestor">

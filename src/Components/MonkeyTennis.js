@@ -4,9 +4,9 @@ import MonkeyTennisDesktop from '../assets/MonkeyTennisDesktop.png'
 import MonkeyTennisMobile from '../assets/MonkeyTennisMobile.png'
 
 
-const MonkeyTennis = ({ page }) => {
+const MonkeyTennis = ({ page, handlers }) => {
 
-  return <div id="projects">
+  return <div {...handlers} id="projects">
 
     <div className={'slide ' + `${page === 5 ? 'selected' : ''}`} id="slide5">
       <div className="tile is-ancestor">

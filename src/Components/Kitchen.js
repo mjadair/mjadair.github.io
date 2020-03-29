@@ -8,11 +8,11 @@ import KitchenRecipesDesktop from '../assets/KitchenRecipesDesktop.png'
 
 
 
-const Kitchen = ({ page }) => {
+const Kitchen = ({ page, handlers }) => {
 
-  return <div id="projects">
+  return <div className="slide-in-right" id="projects">
 
-    <div className={'slide ' + `${page === 2 ? 'selected' : ''}`} id="slide2">
+    <div {...handlers} className={'slide ' + `${page === 2 ? 'selected' : ''}`} id="slide2">
       <div className="tile is-ancestor">
         <div className="tile is-parent">
           <article className="tile is-child notification">

@@ -7,9 +7,9 @@ import NottifyHomeDesktop from '../assets/NottifyHomeDesktop.png'
 import NottifyPlaylistMobile from '../assets/NottifyPlaylistMobile.png'
 
 
-const Nottify = ({ page }) => {
+const Nottify = ({ page, handlers }) => {
 
-  return <div id="projects">
+  return <div {...handlers} className="slide-in-right" id="projects">
 
     <div className={'slide ' + `${page === 3 ? 'selected' : ''}`} id="slide3">
       <div className="tile is-ancestor">

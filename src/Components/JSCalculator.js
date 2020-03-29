@@ -3,9 +3,9 @@ import React from 'react'
 import JSCalculatorScreenshot from '../assets/JSCalculatorScreenshot.png'
 
 
-const JSCalculator = ({ page }) => {
+const JSCalculator = ({ page, handlers }) => {
 
-  return <div id="projects">
+  return <div {...handlers} id="projects">
 
     <div className={'slide ' + `${page === 6 ? 'selected' : ''}`} id="slide6">
       <div className="tile is-ancestor">

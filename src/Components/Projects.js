@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { useSwipeable, Swipeable } from 'react-swipeable'
 import TripBit from './Tripbit'
 import Kitchen from './Kitchen'
 import Nottify from './Nottify'
@@ -8,11 +9,24 @@ import JSCalculator from './JSCalculator'
 import SimpsonsQuoteGenerator from './SimpsonsQuoteGenerator'
 
 
+
+const config = {
+  delta: 10,                           
+  preventDefaultTouchmoveEvent: false,   
+  trackTouch: true,                      
+  trackMouse: true,                   
+  rotationAngle: 0                      
+}
+
+
+
+
 const lastPage = 6
 
 const Projects = () => {
 
   const [page, setPage] = useState(1)
+
 
   function handlePrevious() {
     if (page !== 1) {
@@ -32,11 +46,17 @@ const Projects = () => {
     setPage(parseInt(e.target.id))
   }
 
+  const handlers = useSwipeable({ onSwipedLeft: (eventData) => handleNext(), onSwipedRight: (eventData) => handlePrevious(), ...config })
 
 
 
 
-  return <div id="projects">
+
+
+
+
+
+  return <div  className='hero is-fullheight'>
 
     <h1 className="nameTitle" id="projects-title">Projects</h1>
 
@@ -57,13 +77,13 @@ const Projects = () => {
 
 
 
-    <TripBit page={page} />
-    <Kitchen page={page} />
-    <Nottify page={page} />
-    <SpaceWars page={page} />
-    <MonkeyTennis page={page} />
-    <JSCalculator page={page} />
-    <SimpsonsQuoteGenerator page={page} />
+    <TripBit handlers={handlers} page={page} />
+    <Kitchen handlers={handlers} page={page} />
+    <Nottify handlers={handlers} page={page} />
+    <SpaceWars handlers={handlers} page={page} />
+    <MonkeyTennis handlers={handlers} page={page} />
+    <JSCalculator handlers={handlers} page={page} />
+    <SimpsonsQuoteGenerator handlers={handlers} page={page} />
 
 
   </div>

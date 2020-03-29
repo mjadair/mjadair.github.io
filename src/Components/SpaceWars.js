@@ -8,9 +8,9 @@ import SpaceWarsIntro from '../assets/SpaceWarsIntro.png'
 
 
 
-const SpaceWars = ({ page }) => {
+const SpaceWars = ({ page, handlers }) => {
 
-  return <div id="projects">
+  return <div {...handlers} className="slide-in-right"  id="projects">
 
     <div className={'slide ' + `${page === 4 ? 'selected' : ''}`} id="slide4">
       <div className="tile is-ancestor">

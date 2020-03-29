@@ -7,12 +7,12 @@ import TripBitMapDesktop from '../assets/TripBitMapDesktop.png'
 import TripBitGroupsDesktop from '../assets/TripBitGroupsDesktop.png'
 
 
-const TripBit = ({ page }) => {
+const TripBit = ({ page, handlers }) => {
 
 
-  return <div id="projects">
+  return <div {...handlers} className="slide-in-right"  id="projects">
 
-    <div className={'slide ' + `${page === 1 ? 'selected' : ''}`} id="slide1">
+    <div  className={'slide ' + `${page === 1 ? 'selected' : ''}`} id="slide1">
       <div className="tile is-ancestor">
         <div className="tile is-parent">
           <article className="tile is-child notification">
