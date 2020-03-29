@@ -8,11 +8,12 @@ import SpaceWarsIntro from '../assets/SpaceWarsIntro.png'
 
 
 
-const SpaceWars = ({ page, handlers }) => {
+const SpaceWars = ({ page, handlers, Slide }) => {
 
-  return <div {...handlers} className="slide-in-right"  id="projects">
+  return <Slide index={3}>
 
-    <div className={'slide ' + `${page === 4 ? 'selected' : ''}`} id="slide4">
+    <div className="slide-in-right" id="projects">
+
       <div className="tile is-ancestor">
         <div className="tile is-parent">
           <article className="tile is-child notification">
@@ -59,7 +60,9 @@ const SpaceWars = ({ page, handlers }) => {
 
       </div>
     </div>
-  </div >
+
+  
+  </Slide >
 
 
 }

@@ -5,7 +5,7 @@ import JSCalculatorScreenshot from '../assets/JSCalculatorScreenshot.png'
 
 const JSCalculator = ({ page, handlers }) => {
 
-  return <div {...handlers} id="projects">
+  return <div id="projects">
 
     <div className={'slide ' + `${page === 6 ? 'selected' : ''}`} id="slide6">
       <div className="tile is-ancestor">

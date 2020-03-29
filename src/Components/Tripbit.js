@@ -7,12 +7,14 @@ import TripBitMapDesktop from '../assets/TripBitMapDesktop.png'
 import TripBitGroupsDesktop from '../assets/TripBitGroupsDesktop.png'
 
 
-const TripBit = ({ page, handlers }) => {
+const TripBit = ({ page, handlers, Slide }) => {
 
 
-  return <div {...handlers} className="slide-in-right"  id="projects">
+  return <Slide index={0}>
 
-    <div  className={'slide ' + `${page === 1 ? 'selected' : ''}`} id="slide1">
+    <div className="slide-in-right" id="projects">
+
+      {/* <div className={'slide ' + `${page === 1 ? 'selected' : ''}`} id="slide1"> */}
       <div className="tile is-ancestor">
         <div className="tile is-parent">
           <article className="tile is-child notification">
@@ -20,7 +22,7 @@ const TripBit = ({ page, handlers }) => {
               <p className="title project-title" id="tripbit-title">TripBit</p>
               <p className="subtitle">   </p>
               <div className="content">
-               
+
               </div>
             </div>
           </article>
@@ -30,7 +32,7 @@ const TripBit = ({ page, handlers }) => {
             <div className="tile is-parent is-vertical">
 
               <figure className="image">
-                <img src={TripBitHomeDesktop} id="home-desktop"/>
+                <img src={TripBitHomeDesktop} id="home-desktop" />
               </figure>
 
             </div>
@@ -45,7 +47,7 @@ const TripBit = ({ page, handlers }) => {
           <div className="tile is-parent is-12">
             <article className="tile is-child notification">
               <figure className="image">
-                <img src={TripBitMapDesktop} className="bottom-row"/>
+                <img src={TripBitMapDesktop} className="bottom-row" />
               </figure>
             </article>
             <article className="tile is-child notification">
@@ -55,7 +57,7 @@ const TripBit = ({ page, handlers }) => {
             </article>
             <article className="tile is-child notification">
               <figure className="image">
-                <img src={TripBitGroupsDesktop} className="bottom-row"/>
+                <img src={TripBitGroupsDesktop} className="bottom-row" />
               </figure>
             </article>
           </div>
@@ -63,7 +65,9 @@ const TripBit = ({ page, handlers }) => {
 
       </div>
     </div>
-  </div >
+    {/* </div > */}
+
+  </Slide>
 
 }
 

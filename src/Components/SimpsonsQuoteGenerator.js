@@ -3,11 +3,16 @@ import React from 'react'
 import SimpsonsRandomQuoteDesktop from '../assets/SimpsonsRandomQuote.png'
 
 
-const SimpsonsQuoteGenerator = ({ page, handlers }) => {
+const SimpsonsQuoteGenerator = ({ page, handlers, Slide }) => {
 
-  return <div {...handlers} className="slide-in-right"  id="projects">
+  return <Slide index={6}>
 
-    <div className={'slide ' + `${page === 7 ? 'selected' : ''}`} id="slide7">
+
+    <div className="slide-in-right" id="projects">
+
+
+
+      {/* <div className={'slide ' + `${page === 7 ? 'selected' : ''}`} id="slide7"> */}
       <div className="tile is-ancestor">
         <div className="tile is-parent">
           <article className="tile is-child notification">
@@ -35,8 +40,10 @@ const SimpsonsQuoteGenerator = ({ page, handlers }) => {
         </div>
 
       </div>
+
     </div>
-  </div >
+
+  </Slide >
 
 
 }

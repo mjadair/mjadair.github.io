@@ -4,11 +4,13 @@ import MonkeyTennisDesktop from '../assets/MonkeyTennisDesktop.png'
 import MonkeyTennisMobile from '../assets/MonkeyTennisMobile.png'
 
 
-const MonkeyTennis = ({ page, handlers }) => {
+const MonkeyTennis = ({ page, handlers, Slide }) => {
 
-  return <div {...handlers} id="projects">
+  return <Slide index={4}>
 
-    <div className={'slide ' + `${page === 5 ? 'selected' : ''}`} id="slide5">
+    <div className="slide-in-right" id="projects">
+
+      {/* <div className={'slide ' + `${page === 5 ? 'selected' : ''}`} id="slide5"> */}
       <div className="tile is-ancestor">
         <div className="tile is-parent">
           <article className="tile is-child notification">
@@ -42,7 +44,7 @@ const MonkeyTennis = ({ page, handlers }) => {
 
       </div>
     </div>
-  </div >
+  </Slide>
 
 
 

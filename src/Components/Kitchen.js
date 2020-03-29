@@ -8,11 +8,12 @@ import KitchenRecipesDesktop from '../assets/KitchenRecipesDesktop.png'
 
 
 
-const Kitchen = ({ page, handlers }) => {
+const Kitchen = ({ page, handlers, Slide }) => {
 
-  return <div className="slide-in-right" id="projects">
+  return <Slide index={1}>
+    <div className="slide-in-right" id="projects">
 
-    <div {...handlers} className={'slide ' + `${page === 2 ? 'selected' : ''}`} id="slide2">
+      {/* <div  className={'slide ' + `${page === 2 ? 'selected' : ''}`} id="slide2"> */}
       <div className="tile is-ancestor">
         <div className="tile is-parent">
           <article className="tile is-child notification">
@@ -20,7 +21,7 @@ const Kitchen = ({ page, handlers }) => {
               <p className="title project-title" id="kitchen-title">The Kitchen</p>
               <p className="subtitle"> </p>
               <div className="content">
-              
+
               </div>
             </div>
           </article>
@@ -58,8 +59,9 @@ const Kitchen = ({ page, handlers }) => {
 
       </div>
     </div>
-  </div >
+    {/* </div > */}
 
+  </Slide>
 
 }
 
