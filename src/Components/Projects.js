@@ -23,7 +23,7 @@ const Projects = () => {
 
       <CarouselProvider
         naturalSlideWidth={100}
-        naturalSlideHeight={100}
+        naturalSlideHeight={80}
         totalSlides={7}
         infinite={true}
         lockOnWindowScroll={true}
