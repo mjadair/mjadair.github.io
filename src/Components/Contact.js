@@ -9,7 +9,11 @@ const About = () => {
 
     <div className="hero-body about-body">
       <div className="container has-text-centered">
-        <h1 className="title">
+        <h1 className="title"
+          value="pubes"
+          onClick={(event) => {
+            console.log(event.target.value)
+          }}>
           CONTACT
         </h1>
         <p></p>
