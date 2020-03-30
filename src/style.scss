@@ -14,15 +14,12 @@ html {
 html, body {
   height: 100%;
   width: 100%; 
-  position: absolute;
   font-family: 'Montserrat', sans-serif;
   background-color: black;
   color: white;
 }
 
 body {
-  display: flex;
-  justify-content: center;
  
   #root {
     width: 100%;
@@ -39,21 +36,18 @@ body {
 }
 
 .container{
-  display: flex;
-  justify-content: center;
+  width: 100%;
+  text-align: center;
+
 }
 
 .nameTitle{
   color: gold;
-  font-size: 10vh;
+  font-size: 4rem;
   text-align: center;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-family: 'Monoton', cursive;
 
-}
-
-.hero-body{
-  width: 100%;
 }
 
 .columns{
@@ -67,8 +61,6 @@ button{
   font-size: 2rem;
   color: gold;
 }
-
-
 
 
 //Nav =========================================================================================================
@@ -98,16 +90,10 @@ button{
 
 .heading{
   background: linear-gradient(315deg, #2d3436 0%, #000000 74%);
-  // width: 100%;
-  // margin: 0;
 }
 
 //Projects =================================================================================================
 
-// #projects{
-//   padding-top: 2vh;
-//   padding-bottom: 2vh;
-// }
 
 
 #projects-title{

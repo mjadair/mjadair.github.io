@@ -15,7 +15,7 @@ import SimpsonsQuoteGenerator from './SimpsonsQuoteGenerator'
 const Projects = () => {
 
 
-  return <div className='hero is-fullheight' id="projects">
+  return <div className='hero is-fullheight is-fluid' id="projects">
 
     <h1 className="nameTitle" id="projects-title">Projects</h1>
 
