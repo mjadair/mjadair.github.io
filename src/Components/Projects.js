@@ -20,7 +20,7 @@ const Projects = () => {
     <h1 className="nameTitle" id="projects-title">Projects</h1>
 
     <CarouselProvider
-      naturalSlideWidth={200}
+      naturalSlideWidth={100}
       naturalSlideHeight={160}
       totalSlides={7}
       infinite={true}
