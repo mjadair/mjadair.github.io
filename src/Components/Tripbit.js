@@ -35,25 +35,25 @@ const TripBit = ({ page, handlers, Slide }) => {
           </div>
           <div className="tile is-parent is-4">
             <article className="tile is-child notification ">
-              <figure className="image">
+              <figure className="image mobile-image">
                 <img src={TripBitBadgesMobile} />
               </figure>
             </article>
           </div>
         </div>
-        <div className="tile is-parent is-12">
+        <div className="tile is-parent is-12 mobile-image">
           <article className="tile is-child notification">
-            <figure className="image">
+            <figure className="image mobile-image">
               <img src={TripBitMapDesktop} className="bottom-row" />
             </figure>
           </article>
           <article className="tile is-child notification">
-            <figure className="image">
+            <figure className="image mobile-image">
               <img src={TripBitBadges2Desktop} className="bottom-row" />
             </figure>
           </article>
           <article className="tile is-child notification">
-            <figure className="image">
+            <figure className="image mobile-image">
               <img src={TripBitGroupsDesktop} className="bottom-row" />
             </figure>
           </article>

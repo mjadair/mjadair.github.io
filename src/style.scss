@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+button:focus{
+  outline: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -36,6 +40,8 @@ overflow-anchor: auto;
 }
 
 .container{
+  padding-top: 1vh;
+  height: 100%;
   width: 100%;
   text-align: center;
 
@@ -51,8 +57,29 @@ overflow-anchor: auto;
 }
 
 .columns{
+  height: 100vh;
+  padding: 0;
+}
+
+.column {
+  padding: 0;
   height: 100%;
 }
+
+.article{
+  height: 100vh;
+}
+
+// .column-left{
+//   margin-right: 0;
+//   margin-left: -15vw;
+
+// }
+
+// .column-right{
+// margin-left: 0;
+// margin-right: -15vw;
+// }
 
 button{
   border: none;
@@ -60,10 +87,13 @@ button{
   background-color: none;
   font-size: 2rem;
   color: gold;
+  margin-top: 20vh;
+  margin-left: 2vw;
 }
 
 .hero{
   overflow-y: hidden;
+  padding: 0;
 }
 
 
@@ -128,6 +158,10 @@ button{
   object-fit: cover;
 }
 
+.tile.is-parent.is-12{
+  height: 5vh;
+}
+
 .selected {
   display: flex;
   -webkit-animation: fade-in 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -151,6 +185,11 @@ button{
 
 .tile.is-parent.is-vertical {
   padding-bottom: 0;
+}
+
+
+.buttonNext___2mOCa{
+ 
 }
 
 
@@ -485,11 +524,15 @@ img.bottom-row{
 
 
 
-@media only screen and (min-height: 1000px) {
+@media only screen and (min-height: 800px) {
 
+// button{
+//   display: none;
+// }
 
-
-
+.mobile-image {
+ display: none;
+}
 
 
 }

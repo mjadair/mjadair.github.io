@@ -24,7 +24,7 @@ const MonkeyTennis = ({ page, handlers, Slide }) => {
 
 
           <figure className="image">
-            <img src={MonkeyTennisDesktop} id="monkey-desktop" />
+            <img className="mobile-image" src={MonkeyTennisDesktop} id="monkey-desktop" />
           </figure>
 
 

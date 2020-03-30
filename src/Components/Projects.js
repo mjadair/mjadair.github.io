@@ -15,59 +15,61 @@ import SimpsonsQuoteGenerator from './SimpsonsQuoteGenerator'
 const Projects = () => {
 
 
-  return <div className='hero is-fullheight is-fluid' id="projects">
+  return <div className='hero is-fullheight' id="projects">
 
     <h1 className="nameTitle" id="projects-title">Projects</h1>
 
-    <CarouselProvider
-      naturalSlideWidth={100}
-      naturalSlideHeight={80}
-      totalSlides={7}
-      infinite={true}
-      lockOnWindowScroll={true}
-      className="slider-container"
-    >
+    <div className="container">
+
+      <CarouselProvider
+        naturalSlideWidth={100}
+        naturalSlideHeight={100}
+        totalSlides={7}
+        infinite={true}
+        lockOnWindowScroll={true}
+        className="slider-container"
+      >
 
 
-      <div className="columns">
+        <div className="columns is-mobile">
 
-        <div className="column">
-          <ButtonBack>◁</ButtonBack>
+          <div className="column is-narrow column-left">
+            <ButtonBack>◁</ButtonBack>
+          </div>
+
+
+
+
+          <div className="column">
+            <Slider className="slider-container">
+
+
+              <TripBit Slide={Slide} />
+              <Kitchen Slide={Slide} />
+              <Nottify Slide={Slide} />
+              <SpaceWars Slide={Slide} />
+              <MonkeyTennis Slide={Slide} />
+              <JSCalculator Slide={Slide} />
+              <SimpsonsQuoteGenerator Slide={Slide} />
+
+
+
+            </Slider>
+
+          </div>
+
+
+          <div className="column is-narrow column-right">
+            <ButtonNext>▷</ButtonNext>
+          </div>
+
+
+
+
+
         </div>
-
-
-
-
-        <div className="column is-four-fifths">
-          <Slider className="slider-container">
-
-
-            <TripBit Slide={Slide} />
-            <Kitchen Slide={Slide} />
-            <Nottify Slide={Slide} />
-            <SpaceWars Slide={Slide} />
-            <MonkeyTennis Slide={Slide} />
-            <JSCalculator Slide={Slide} />
-            <SimpsonsQuoteGenerator Slide={Slide} />
-
-
-
-          </Slider>
-
-        </div>
-
-
-        <div className="column">
-          <ButtonNext>▷</ButtonNext>
-        </div>
-
-
-
-
-
-      </div>
-    </CarouselProvider>
-
+      </CarouselProvider>
+    </div>
   </div >
 
 }

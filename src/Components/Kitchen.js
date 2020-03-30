@@ -36,7 +36,7 @@ const Kitchen = ({ page, handlers, Slide }) => {
           <div className="tile is-parent is-4">
             <article className="tile is-child notification ">
               <figure className="image">
-                <img src={KitchenRecipeMobile} />
+                <img className="mobile-image" src={KitchenRecipeMobile} />
               </figure>
             </article>
           </div>
