@@ -221,6 +221,7 @@ button{
 img.bottom-row{
   height: 30vh;
   margin-bottom: 1vh;
+  padding-bottom: 5vh;
 }
 
 
@@ -250,6 +251,10 @@ img.bottom-row{
 //SpaceWars==================================================================================
 
 
+#space-desktop{
+  width: 90%;
+}
+
 #spacewars-title{
   font-family: 'VT323', monospace;
   color: gold;
@@ -265,9 +270,9 @@ img.bottom-row{
 //Monkey Tennis====================================
 
 
-#monkey-desktop{
+.monkey-desktop{
   margin-left: 3vw;
-  width: 90%;
+  width: 80%;
 }
 
 #monkeytennis-title{
@@ -285,16 +290,21 @@ img.bottom-row{
 }
 
 #calculator-image{
+  padding-top: 3vh;
   margin-left: 3vw;
-  width: 70%;
+  width: 50%;
 }
 
 //Simpsons================================================
 
 
 #simpsons-title{
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: 'Rock Salt', cursive;
+}
+
+#simpsons-pic{
+  padding-left: 3vw;
 }
 
 
@@ -566,14 +576,19 @@ img.bottom-row{
 
 
 
-@media only screen and (min-height: 800px) {
+@media only screen and (max-width: 500px) {
 
 // button{
 //   display: none;
 // }
 
 .mobile-image {
- display: none;
+height: 40%;
+ width: 40%; 
+}
+
+.hidden-mobile {
+  display: none;
 }
 
 

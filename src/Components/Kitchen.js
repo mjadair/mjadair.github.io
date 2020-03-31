@@ -35,19 +35,19 @@ const Kitchen = ({ page, handlers, Slide }) => {
           </div>
           <div className="tile is-parent is-4">
             <article className="tile is-child notification ">
-              <figure className="image">
+              <figure className="image mobile-image">
                 <img className="mobile-image" src={KitchenRecipeMobile} />
               </figure>
             </article>
           </div>
         </div>
-        <div className="tile is-parent is-12">
+        <div className="tile is-parent is-12 hidden-mobile">
           <article className="tile is-child notification">
             <figure className="image">
               <img src={KitchenRecipesDesktop} className="bottom-row" />
             </figure>
           </article>
-          <article className="tile is-child notification">
+          <article className="tile is-child notification hidden-mobile">
             <figure className="image">
               <img src={KitchenRecipeDesktop} className="bottom-row" />
             </figure>

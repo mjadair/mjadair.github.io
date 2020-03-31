@@ -23,15 +23,15 @@ const MonkeyTennis = ({ page, handlers, Slide }) => {
         <div className="tile">
 
 
-          <figure className="image">
-            <img className="mobile-image" src={MonkeyTennisDesktop} id="monkey-desktop" />
+          <figure className="image monkey-desktop">
+            <img  src={MonkeyTennisDesktop} id="monkey-desktop" />
           </figure>
 
 
           <div className="tile is-parent is-4">
             <article className="tile is-child notification ">
-              <figure className="image">
-                <img src={MonkeyTennisMobile} />
+              <figure className="image mobile-image">
+                <img className="mobile-image" src={MonkeyTennisMobile} />
               </figure>
             </article>
           </div>

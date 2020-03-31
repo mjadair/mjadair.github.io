@@ -29,25 +29,25 @@ const Nottify = ({ page, handlers, Slide }) => {
           <div className="tile is-parent is-vertical">
 
             <figure className="image">
-              <img className="mobile-image" src={NottifyArtistsDesktop} id="home-desktop" />
+              <img  src={NottifyArtistsDesktop} id="home-desktop" />
             </figure>
 
           </div>
           <div className="tile is-parent is-4">
             <article className="tile is-child notification ">
-              <figure className="image">
-                <img src={NottifyArtistsMobile} />
+              <figure className="image mobile-image">
+                <img className="mobile-image" src={NottifyArtistsMobile} />
               </figure>
             </article>
           </div>
         </div>
-        <div className="tile is-parent is-12">
+        <div className="tile is-parent is-12 hidden-mobile">
           <article className="tile is-child notification">
             <figure className="image">
               <img src={NottifyAlbumsDesktop} className="bottom-row" />
             </figure>
           </article>
-          <article className="tile is-child notification">
+          <article className="tile is-child notification hidden-mobile">
             <figure className="image">
               <img src={NottifyHomeDesktop} className="bottom-row" />
             </figure>

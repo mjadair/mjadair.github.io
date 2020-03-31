@@ -24,7 +24,7 @@ const SimpsonsQuoteGenerator = ({ page, handlers, Slide }) => {
           <div className="tile is-parent is-vertical">
 
             <figure className="image">
-              <img src={SimpsonsRandomQuoteDesktop} id="home-desktop" />
+              <img src={SimpsonsRandomQuoteDesktop} id="simpsons-pic" />
             </figure>
 
           </div>

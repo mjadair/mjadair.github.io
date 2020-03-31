@@ -20,19 +20,16 @@ const JSCalculator = ({ page, handlers, Slide }) => {
         </article>
       </div>
       <div className="tile is-vertical is-8">
-        <div className="tile">
-          <div className="tile is-parent is-vertical">
-
-            <figure className="image">
-              <img className="mobile-image" id="calculator-image" src={JSCalculatorScreenshot}  />
-            </figure>
-
-          </div>
-
-        </div>
+        <figure className="image">
+          <img className="mobile-image" id="calculator-image" src={JSCalculatorScreenshot} />
+        </figure>
 
       </div>
+
     </div>
+
+
+
   </Slide>
 
 
