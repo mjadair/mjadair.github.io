@@ -12,7 +12,7 @@ const MonkeyTennis = ({ page, handlers, Slide }) => {
       <div className="tile is-parent">
         <article className="tile is-child notification">
           <div className="content">
-            <p className="title project-title" id="monkeytennis-title">Monkey Tennis</p>
+            <p className="title project-title" id="monkeytennis-title">Monkey Tennis 🍌</p>
             <p className="subtitle">   </p>
             <div className="content">
             </div>

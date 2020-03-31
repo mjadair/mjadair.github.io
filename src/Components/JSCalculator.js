@@ -24,7 +24,7 @@ const JSCalculator = ({ page, handlers, Slide }) => {
           <div className="tile is-parent is-vertical">
 
             <figure className="image">
-              <img className="mobile-image" src={JSCalculatorScreenshot}  />
+              <img className="mobile-image" id="calculator-image" src={JSCalculatorScreenshot}  />
             </figure>
 
           </div>
