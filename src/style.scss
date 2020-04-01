@@ -192,9 +192,9 @@ button{
   padding-bottom: 0;
 }
 
-
-.buttonNext___2mOCa{
- 
+.home-desktop{
+  margin-top: 3vh;
+ // height: 100%;
 }
 
 
@@ -213,9 +213,10 @@ button{
 }
 
 
-#home-desktop{
-  margin-top: 3vh;
-  height: 100%;
+#tripbit-desktop{
+   margin-top: 3vh;
+  // height: 100%;
+  border: 3px solid  rgb(97, 67, 0) ;
 }
 
 img.bottom-row{
@@ -251,9 +252,9 @@ img.bottom-row{
 //SpaceWars==================================================================================
 
 
-#space-desktop{
-  width: 90%;
-}
+// #space-desktop{
+//   width: 90%;
+// }
 
 #spacewars-title{
   font-family: 'VT323', monospace;
@@ -267,12 +268,22 @@ img.bottom-row{
   }
 }
 
+.space-image{
+width: 100%;
+height: 110%;
+}
+
 //Monkey Tennis====================================
 
 
 .monkey-desktop{
   margin-left: 3vw;
   width: 80%;
+  padding-top: 3vh;
+  #monkey-desktop {
+    margin-top: 1vh;
+    border: 3px solid gold;
+  }
 }
 
 #monkeytennis-title{
@@ -291,10 +302,14 @@ img.bottom-row{
 
 #calculator-image{
   padding-top: 3vh;
-  margin-left: 3vw;
   width: 50%;
 }
 
+.calculator-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 //Simpsons================================================
 
 
@@ -304,7 +319,8 @@ img.bottom-row{
 }
 
 #simpsons-pic{
-  padding-left: 3vw;
+  
+  border: 3px solid gold;
 }
 
 

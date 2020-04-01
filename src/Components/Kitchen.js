@@ -8,7 +8,7 @@ import KitchenRecipesDesktop from '../assets/KitchenRecipesDesktop.png'
 
 
 
-const Kitchen = ({ page, handlers, Slide }) => {
+const Kitchen = ({ Slide }) => {
 
   return <Slide index={1}>
 
@@ -29,7 +29,7 @@ const Kitchen = ({ page, handlers, Slide }) => {
           <div className="tile is-parent is-vertical">
 
             <figure className="image">
-              <img src={KitchenHomeDesktop} id="home-desktop" />
+              <img src={KitchenHomeDesktop} className="home-desktop" />
             </figure>
 
           </div>

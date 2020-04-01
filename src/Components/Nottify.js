@@ -29,7 +29,7 @@ const Nottify = ({ page, handlers, Slide }) => {
           <div className="tile is-parent is-vertical">
 
             <figure className="image">
-              <img  src={NottifyArtistsDesktop} id="home-desktop" />
+              <img  src={NottifyArtistsDesktop} className="home-desktop" />
             </figure>
 
           </div>

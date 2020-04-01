@@ -29,7 +29,7 @@ const TripBit = ({ Slide }) => {
           <div className="tile is-parent is-vertical">
 
             <figure className="image">
-              <img src={TripBitHomeDesktop} id="home-desktop" />
+              <img src={TripBitHomeDesktop} className="home-desktop" id="tripbit-desktop" />
             </figure>
 
           </div>

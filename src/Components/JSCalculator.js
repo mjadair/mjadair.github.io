@@ -20,7 +20,7 @@ const JSCalculator = ({ page, handlers, Slide }) => {
         </article>
       </div>
       <div className="tile is-vertical is-8">
-        <figure className="image">
+        <figure className="image calculator-container">
           <img className="mobile-image" id="calculator-image" src={JSCalculatorScreenshot} />
         </figure>
 

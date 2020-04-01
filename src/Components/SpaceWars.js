@@ -28,7 +28,7 @@ const SpaceWars = ({ page, handlers, Slide }) => {
         <div className="tile">
           <div className="tile is-parent">
             <article className="tile is-child notification ">
-              <figure className="image">
+              <figure className="image space-image">
                 <img src={SpaceWarsBattle2} id="space-desktop" />
               </figure>
             </article>
@@ -36,7 +36,7 @@ const SpaceWars = ({ page, handlers, Slide }) => {
           </div>
           <div className="tile is-parent is-vertical is-6 hidden-mobile">
             <article className="tile is-child notification ">
-              <figure className="image">
+              <figure className="image space-image">
                 <img src={SpaceWarsBoss} />
               </figure>
             </article>
@@ -44,12 +44,12 @@ const SpaceWars = ({ page, handlers, Slide }) => {
         </div>
         <div className="tile is-parent is-12 hidden-mobile">
           <article className="tile is-child notification">
-            <figure className="image">
+            <figure className="image space-image">
               <img src={SpaceWarsBattle} className="bottom-row" />
             </figure>
           </article>
           <article className="tile is-child notification hidden-mobile">
-            <figure className="image">
+            <figure className="image space-image">
               <img src={SpaceWarsIntro} className="bottom-row" />
             </figure>
           </article>
