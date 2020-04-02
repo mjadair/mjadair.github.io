@@ -13,7 +13,7 @@ const SpaceWars = ({ page, handlers, Slide }) => {
   return <Slide index={3}>
 
     <div className="tile is-ancestor">
-      <div className="tile is-parent">
+      <div className="tile is-parent is-4">
         <article className="tile is-child notification">
           <div className="content">
             <p className="title project-title" id="spacewars-title">SPACE WARS</p>
@@ -24,31 +24,28 @@ const SpaceWars = ({ page, handlers, Slide }) => {
           </div>
         </article>
       </div>
-      <div className="tile is-vertical is-8">
-        <div className="tile">
-          <div className="tile is-parent">
-            <article className="tile is-child notification ">
-              <figure className="image space-image">
-                <img src={SpaceWarsBattle2} id="space-desktop" />
-              </figure>
-            </article>
+      <div className="tile is-vertical">
+        <div className="tile is-parent is-12">
+          <article className="tile is-child is-6 notification ">
+            <figure className="image space-image">
+              <img src={SpaceWarsBattle2} id="space-desktop" />
+            </figure>
+          </article>
 
-          </div>
-          <div className="tile is-parent is-vertical is-6 hidden-mobile">
-            <article className="tile is-child notification ">
-              <figure className="image space-image">
-                <img src={SpaceWarsBoss} />
-              </figure>
-            </article>
-          </div>
+          <article className="tile is-child is-6 hidden-mobile notification ">
+            <figure className="image space-image">
+              <img src={SpaceWarsBoss} />
+            </figure>
+          </article>
         </div>
+
         <div className="tile is-parent is-12 hidden-mobile">
-          <article className="tile is-child notification">
+          <article className="tile is-child is-6 notification">
             <figure className="image space-image">
               <img src={SpaceWarsBattle} className="bottom-row" />
             </figure>
           </article>
-          <article className="tile is-child notification hidden-mobile">
+          <article className="tile is-child is-6 notification hidden-mobile">
             <figure className="image space-image">
               <img src={SpaceWarsIntro} className="bottom-row" />
             </figure>
