@@ -15,15 +15,17 @@ import SimpsonsQuoteGenerator from './SimpsonsQuoteGenerator'
 const Projects = () => {
 
 
-  return <div className='hero is-fullheight' id="projects">
+  return <section className='hero is-fullheight' id="projects">
 
-    <h1 className="nameTitle" id="projects-title">Projects</h1>
+    <h1 className="nameTitle hero-head" id="projects-title">Projects</h1>
 
-    <div className="container">
+    <div className="hero-body">
+
+      {/* <div className="container"> */}
 
       <CarouselProvider
-        naturalSlideWidth={100}
-        naturalSlideHeight={125}
+        // naturalSlideWidth={100}
+        // naturalSlideHeight={125}
         isIntrinsicHeight={true}
         totalSlides={7}
         infinite={true}
@@ -42,9 +44,7 @@ const Projects = () => {
 
 
           <div className="column">
-            <Slider className="slider-container">
-
-
+            <Slider className="slider-container container">
               <TripBit Slide={Slide} />
               <Kitchen Slide={Slide} />
               <Nottify Slide={Slide} />
@@ -58,20 +58,21 @@ const Projects = () => {
             </Slider>
 
           </div>
-
-
-          <div className="column is-narrow column-right">
-            <ButtonNext>▷</ButtonNext>
-          </div>
-
-
-
-
-
         </div>
+
+        <div className="column is-narrow column-right">
+          <ButtonNext>▷</ButtonNext>
+        </div>
+
+
+
+
+
+
       </CarouselProvider>
     </div>
-  </div >
+    {/* </div> */}
+  </section >
 
 }
 export default Projects

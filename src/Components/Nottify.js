@@ -13,34 +13,31 @@ const Nottify = ({ page, handlers, Slide }) => {
 
 
     <div className="tile is-ancestor">
-      <div className="tile is-parent">
+      <div className="tile is-parent is-4">
         <article className="tile is-child notification">
           <div className="content">
             <p className="title project-title" id="nottify-title">Nottify</p>
-            <p className="subtitle"> </p>
+            <p className="subtitle"></p>
             <div className="content">
-
+              <p>  </p>
             </div>
           </div>
         </article>
       </div>
-      <div className="tile is-vertical is-8">
-        <div className="tile">
-          <div className="tile is-parent is-vertical">
-
+      <div className="tile is-vertical">
+        <div className="tile is-parent is-12">
+          <article className="tile is-child is-9 notification ">
             <figure className="image">
-              <img  src={NottifyArtistsDesktop} className="home-desktop" />
+              <img src={NottifyArtistsDesktop} className="home-desktop" />
             </figure>
-
-          </div>
-          <div className="tile is-parent is-4">
-            <article className="tile is-child notification ">
-              <figure className="image mobile-image">
-                <img className="mobile-image" src={NottifyArtistsMobile} />
-              </figure>
-            </article>
-          </div>
+          </article>
+          <article className="tile is-child is-3 notification ">
+            <figure className="image mobile-image">
+              <img className="mobile-image" src={NottifyArtistsMobile} />
+            </figure>
+          </article>
         </div>
+
         <div className="tile is-parent is-12 hidden-mobile">
           <article className="tile is-child notification">
             <figure className="image">
@@ -54,7 +51,6 @@ const Nottify = ({ page, handlers, Slide }) => {
           </article>
         </div>
       </div>
-
     </div>
 
 
