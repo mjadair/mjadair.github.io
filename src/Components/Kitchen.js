@@ -17,8 +17,25 @@ const Kitchen = ({ Slide }) => {
         <article className="tile is-child notification">
           <div className="content">
             <p className="title project-title" id="kitchen-title">The Kitchen</p>
-            <p className="subtitle"> </p>
+            <p className="kitchen-sub">A full stack MERN App</p>
             <div className="content">
+              <p>The Kitchen allows users to search a database of recipe and restaurant recommendations. Logged in users can upload their own recipes, comment on recipes and have recipe shopping lists sent to their registered email address.</p>
+              <ul>
+                <li className="left-list"><a id="kitchen-links" href="https://thekitchen.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit The Kitchen</a></li>
+                <li className="left-list"><a id="kitchen-links" href="https://github.com/mjadair/The-Kitchen" target="_blank" rel="noopener noreferrer">The Kitchen on GitHub </a> <i className="devicon-github-plain"></i></li>
+              </ul>
+              <p className="bold">Main tech used:</p>
+              <ul>
+                <li>HTML5  <i className="devicon-html5-plain-wordmark"></i></li>
+                <li> SCSS  <i className="devicon-sass-original"></i> </li>
+                <li> JavaScript  <i className="devicon-javascript-plain"></i> </li>
+                <li> Express.js <i className="devicon-express-original"></i> </li>
+                <li> Mongo &amp; Mongoose <i className="devicon-mongodb-plain"></i> </li>
+                <li> React  <i className="devicon-react-original"></i></li>
+                <li> Heroku  <i className="devicon-heroku-original"></i></li>
+                <li> Webpack  <i className="devicon-webpack-plain"></i></li>
+                <li> Git and GitHub  <i className="devicon-github-plain"></i> </li>
+              </ul>
             </div>
           </div>
         </article>

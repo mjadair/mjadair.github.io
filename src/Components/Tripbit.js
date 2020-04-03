@@ -17,10 +17,14 @@ const TripBit = ({ Slide }) => {
         <article className="tile is-child notification">
           <div className="content">
             <p className="title project-title" id="tripbit-title">TripBit</p>
-            <p className="sub">A full stack App with JS/React front-end {'&'} Python/Django back-end</p>
+            <p className="tripbit-sub">A full stack App with JS/React front-end {'&'} Python/Django back-end</p>
             <div className="content">
-              <p>TripBit is a personal travel tracker and digital &apos;scratch map&apos;. Logged in users can add the cities which they have visited to their profile. These cities are displayed on a map and the user is awarded badges based on where they have been. </p>
-              <p>Main tech used:</p>
+              <p>TripBit is a personal travel tracker and digital &apos;scratch map&apos; where logged in users can add the cities which they have visited to their profile. These cities are displayed on a map and the user is awarded badges based on where they have been. The user can also join groups and compete with friends. </p>
+              <ul>
+                <li className="left-list"><a id="Tripbit-links" href="http://trip-bit.herokuapp.com/#/" target="_blank" rel="noopener noreferrer">Visit TripBit</a></li>
+                <li className="left-list"><a id="Tripbit-links" href="https://github.com/mjadair/TripBit" target="_blank" rel="noopener noreferrer">TripBit on GitHub </a> <i id="Tripbit-logo" className="devicon-github-plain"></i></li>
+              </ul>
+              <p className="bold">Main tech used:</p>
               <ul>
                 <li>HTML5  <i className="devicon-html5-plain-wordmark"></i></li>
                 <li> SCSS  <i className="devicon-sass-original"></i> </li>
