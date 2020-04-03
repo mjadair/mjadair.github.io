@@ -313,14 +313,30 @@ img.bottom-row{
 //SpaceWars==================================================================================
 
 
-// #space-desktop{
-//   width: 90%;
-// }
-
 #spacewars-title{
   font-family: 'VT323', monospace;
   color: gold;
   animation: blinker 1s linear infinite;
+  margin-bottom: 0;
+}
+
+
+.space-sub{
+  font-size: 1.5rem;
+  border-top: 1px solid gold;
+  font-family: 'VT323', monospace;
+  color: gold;
+
+
+}
+
+
+#space-links{
+  font-size: 1.5rem;
+  font-family: 'VT323', monospace;
+  color: gold;
+  text-decoration: overline;
+
 }
 
 @keyframes blinker {

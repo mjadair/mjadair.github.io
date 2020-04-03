@@ -8,7 +8,7 @@ import SpaceWarsIntro from '../assets/SpaceWarsIntro.png'
 
 
 
-const SpaceWars = ({ page, handlers, Slide }) => {
+const SpaceWars = ({ Slide }) => {
 
   return <Slide index={3}>
 
@@ -17,8 +17,20 @@ const SpaceWars = ({ page, handlers, Slide }) => {
         <article className="tile is-child notification">
           <div className="content">
             <p className="title project-title" id="spacewars-title">SPACE WARS</p>
-            <p className="subtitle"></p>
+            <p className="space-sub">Grid-based JavaScript game</p>
             <div className="content">
+              <p>Space Wars is a vanilla JavaScript game based on the arcade classic, Space Invaders</p>
+              <ul>
+                <li className="left-list"><a id="space-links" href="https://mjadair.github.io/Nottify/" target="_blank" rel="noopener noreferrer">Play Space Wars</a></li>
+                <li className="left-list"><a id="space-links" href="https://github.com/mjadair/Nottify" target="_blank" rel="noopener noreferrer">Space Wars on GitHub </a> <i className="devicon-github-plain"></i></li>
+              </ul>
+              <p className="bold">Main tech used:</p>
+              <ul>
+                <li>HTML5  <i className="devicon-html5-plain-wordmark"></i></li>
+                <li> CSS  <i className="devicon-css3-plain"></i> </li>
+                <li> JavaScript  <i className="devicon-javascript-plain"></i> </li>
+                <li> Git and GitHub  <i className="devicon-github-plain"></i> </li>
+              </ul>
 
             </div>
           </div>
