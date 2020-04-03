@@ -4,7 +4,7 @@ import MonkeyTennisDesktop from '../assets/MonkeyTennisDesktop.png'
 import MonkeyTennisMobile from '../assets/MonkeyTennisMobile.png'
 
 
-const MonkeyTennis = ({ page, handlers, Slide }) => {
+const MonkeyTennis = ({ Slide }) => {
 
   return <Slide index={4}>
 

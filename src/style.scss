@@ -392,7 +392,25 @@ height: 110%;
   font-family: 'Orbitron', sans-serif;
   color: aquamarine;
   font-size: 2rem;
+  margin-bottom: 0;
 }
+
+.calc-sub{
+  border-top: 1px solid aquamarine;
+  font-family: 'Orbitron', sans-serif;
+  color: coral;
+
+
+}
+
+#calc-links{
+  font-family: 'Orbitron', sans-serif;
+  color: coral;
+  text-decoration: overline;
+
+}
+
+
 
 #calculator-image{
   padding-top: 3vh;
