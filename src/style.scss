@@ -330,7 +330,6 @@ img.bottom-row{
 
 }
 
-
 #space-links{
   font-size: 1.5rem;
   font-family: 'VT323', monospace;
@@ -360,12 +359,30 @@ height: 110%;
   #monkey-desktop {
     margin-top: 1vh;
     border: 3px solid gold;
+    
   }
 }
 
 #monkeytennis-title{
   font-family: 'Happy Monkey', cursive;
   font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+
+.monkey-sub{
+  border-top: 1px solid gold;
+  font-family: 'Happy Monkey', cursive;
+  color: gold;
+
+
+}
+
+#monkey-links{
+  font-family: 'Happy Monkey', cursive;
+  color: gold;
+  text-decoration: overline;
+
 }
 
 

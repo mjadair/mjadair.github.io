@@ -13,8 +13,21 @@ const MonkeyTennis = ({ page, handlers, Slide }) => {
         <article className="tile is-child notification">
           <div className="content">
             <p className="title project-title" id="monkeytennis-title">Monkey Tennis 🍌</p>
-            <p className="subtitle">   </p>
+            <p className="monkey-sub">A game built with PhaserJS</p>
             <div className="content">
+              <p>Monkey Tennis is a game built using the PhaserJS framework. Based on the classic arcade game Breakout, it uses Phaser&apos;s built in physics and graphics tools</p>
+              <ul>
+                <li className="left-list"><a id="monkey-links" href="https://mjadair.github.io/Monkey-Tennis/" target="_blank" rel="noopener noreferrer">Play Monkey Tennis 🐒</a></li>
+                <li className="left-list"><a id="monkey-links" href="https://github.com/mjadair/Monkey-Tennis" target="_blank" rel="noopener noreferrer">Monkey Tennis on GitHub </a> <i className="devicon-github-plain"></i></li>
+              </ul>
+              <p className="bold">Main tech used:</p>
+              <ul>
+                <li>HTML5  <i className="devicon-html5-plain-wordmark"></i></li>
+                <li>Phaser JS 🎾</li>
+                <li> JavaScript  <i className="devicon-javascript-plain"></i> </li>
+                <li> Git and GitHub  <i className="devicon-github-plain"></i> </li>
+              </ul>
+
             </div>
           </div>
         </article>
@@ -24,7 +37,7 @@ const MonkeyTennis = ({ page, handlers, Slide }) => {
 
 
           <figure className="image monkey-desktop">
-            <img  src={MonkeyTennisDesktop} id="monkey-desktop" />
+            <img src={MonkeyTennisDesktop} id="monkey-desktop" />
           </figure>
 
 

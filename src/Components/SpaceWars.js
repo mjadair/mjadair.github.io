@@ -21,8 +21,8 @@ const SpaceWars = ({ Slide }) => {
             <div className="content">
               <p>Space Wars is a vanilla JavaScript game based on the arcade classic, Space Invaders</p>
               <ul>
-                <li className="left-list"><a id="space-links" href="https://mjadair.github.io/Nottify/" target="_blank" rel="noopener noreferrer">Play Space Wars</a></li>
-                <li className="left-list"><a id="space-links" href="https://github.com/mjadair/Nottify" target="_blank" rel="noopener noreferrer">Space Wars on GitHub </a> <i className="devicon-github-plain"></i></li>
+                <li className="left-list"><a id="space-links" href="https://mjadair.github.io/Space-Wars/" target="_blank" rel="noopener noreferrer">Play Space Wars</a></li>
+                <li className="left-list"><a id="space-links" href="https://github.com/mjadair/Space-Wars" target="_blank" rel="noopener noreferrer">Space Wars on GitHub </a> <i className="devicon-github-plain"></i></li>
               </ul>
               <p className="bold">Main tech used:</p>
               <ul>
