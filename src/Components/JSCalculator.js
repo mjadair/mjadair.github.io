@@ -31,8 +31,8 @@ const JSCalculator = ({ Slide }) => {
           </div>
         </article>
       </div>
-      <div className="tile is-parent is-8">
-        <article className="tile is-child notification">
+      <div className="tile is-parent is-12">
+        <article className="tile is-child is-9 notification">
           <figure className="image calculator-container">
             <img className="mobile-image" id="calculator-image" src={JSCalculatorScreenshot} />
           </figure>
