@@ -23,9 +23,6 @@ const Projects = () => {
     <div className="hero-body">
 
 
-
-      {/* <div className="container"> */}
-
       <div className="columns is-mobile">
 
         <CarouselProvider
@@ -39,16 +36,9 @@ const Projects = () => {
         >
 
 
-
-
-
           <div className="column is-narrow column-left">
             <ButtonBack>◁</ButtonBack>
           </div>
-
-
-
-
 
           <Slider className="slider-container container">
             <div className="column">
@@ -62,25 +52,15 @@ const Projects = () => {
             </div>
           </Slider>
 
-
-
-
-
           <div className="column is-narrow column-right">
             <ButtonNext>▷</ButtonNext>
           </div>
-
-
 
         </CarouselProvider>
 
       </div>
 
     </div>
-
-    {/* </div> */}
-
-
 
   </section >
 

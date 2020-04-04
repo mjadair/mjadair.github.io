@@ -5,9 +5,6 @@ import SpaceWarsBattle2 from '../assets/SpaceWarsBattle2.png'
 import SpaceWarsBoss from '../assets/SpaceWarsBoss.png'
 import SpaceWarsIntro from '../assets/SpaceWarsIntro.png'
 
-
-
-
 const SpaceWars = ({ Slide }) => {
 
   return <Slide index={3}>

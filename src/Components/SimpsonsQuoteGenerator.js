@@ -3,7 +3,7 @@ import React from 'react'
 import SimpsonsRandomQuoteDesktop from '../assets/SimpsonsRandomQuote.png'
 
 
-const SimpsonsQuoteGenerator = ({ page, handlers, Slide }) => {
+const SimpsonsQuoteGenerator = ({ Slide }) => {
 
   return <Slide index={6}>
 
@@ -46,13 +46,8 @@ const SimpsonsQuoteGenerator = ({ page, handlers, Slide }) => {
       </div>
     </div>
 
-
-
-
   </Slide >
 
-
 }
-
 
 export default SimpsonsQuoteGenerator
