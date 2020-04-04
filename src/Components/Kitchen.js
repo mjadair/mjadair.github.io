@@ -56,12 +56,12 @@ const Kitchen = ({ Slide }) => {
 
         </div>
         <div className="tile is-parent is-12 hidden-mobile">
-          <article className="tile is-child notification">
+          <article className="tile is-child is-6 notification">
             <figure className="image">
               <img src={KitchenRecipesDesktop} className="bottom-row" />
             </figure>
           </article>
-          <article className="tile is-child notification hidden-mobile">
+          <article className="tile is-child is-6 notification hidden-mobile">
             <figure className="image">
               <img src={KitchenRecipeDesktop} className="bottom-row" />
             </figure>

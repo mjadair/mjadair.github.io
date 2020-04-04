@@ -8,7 +8,7 @@ const SimpsonsQuoteGenerator = ({ page, handlers, Slide }) => {
   return <Slide index={6}>
 
     <div className="tile is-ancestor">
-      <div className="tile is-parent">
+      <div className="tile is-parent is-4">
         <article className="tile is-child notification">
           <div className="content">
             <p className="title project-title" id="simpsons-title">The Simpsons Random Quote Generator</p>
@@ -33,21 +33,20 @@ const SimpsonsQuoteGenerator = ({ page, handlers, Slide }) => {
           </div>
         </article>
       </div>
-      <div className="tile is-vertical is-8">
-        <div className="tile">
-          <div className="tile is-parent is-vertical">
+      <div className="tile is-parent is-8">
+        <article className="tile is-child is-8 notification">
 
-            <figure className="image">
-              <img src={SimpsonsRandomQuoteDesktop} id="simpsons-pic" />
-            </figure>
+          <figure className="image">
+            <img src={SimpsonsRandomQuoteDesktop} id="simpsons-pic" />
+          </figure>
 
-          </div>
+        </article>
 
 
-        </div>
       </div>
-
     </div>
+
+
 
 
   </Slide >

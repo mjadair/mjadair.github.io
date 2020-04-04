@@ -9,7 +9,7 @@ const MonkeyTennis = ({ Slide }) => {
   return <Slide index={4}>
 
     <div className="tile is-ancestor">
-      <div className="tile is-parent">
+      <div className="tile is-parent is-4">
         <article className="tile is-child notification">
           <div className="content">
             <p className="title project-title" id="monkeytennis-title">Monkey Tennis 🍌</p>
@@ -32,27 +32,23 @@ const MonkeyTennis = ({ Slide }) => {
           </div>
         </article>
       </div>
-      <div className="tile is-8">
-        <div className="tile">
-
-
+      <div className="tile is-parent is-12">
+        <article className="tile is-child is-6">
           <figure className="image monkey-desktop">
             <img src={MonkeyTennisDesktop} id="monkey-desktop" />
           </figure>
+        </article>
 
-
-          <div className="tile is-parent is-4">
-            <article className="tile is-child notification ">
-              <figure className="image mobile-image">
-                <img className="mobile-image" src={MonkeyTennisMobile} />
-              </figure>
-            </article>
-          </div>
-        </div>
-
+        <article className="tile is-child is-2 notification ">
+          <figure className="image mobile-image">
+            <img className="mobile-image" src={MonkeyTennisMobile} />
+          </figure>
+        </article>
       </div>
-
     </div>
+
+
+
 
   </Slide>
 

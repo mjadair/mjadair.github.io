@@ -4,10 +4,9 @@ import NottifyAlbumsDesktop from '../assets/NottifyAlbumsDesktop.png'
 import NottifyArtistsDesktop from '../assets/NottifyArtistsDesktop.png'
 import NottifyArtistsMobile from '../assets/NottifyArtistsMobile.png'
 import NottifyHomeDesktop from '../assets/NottifyHomeDesktop.png'
-import NottifyPlaylistMobile from '../assets/NottifyPlaylistMobile.png'
 
 
-const Nottify = ({ page, handlers, Slide }) => {
+const Nottify = ({ Slide }) => {
 
   return <Slide index={2}>
 
@@ -52,12 +51,12 @@ const Nottify = ({ page, handlers, Slide }) => {
         </div>
 
         <div className="tile is-parent is-12 hidden-mobile">
-          <article className="tile is-child notification">
+          <article className="tile is-child is-6 notification">
             <figure className="image">
               <img src={NottifyAlbumsDesktop} className="bottom-row" />
             </figure>
           </article>
-          <article className="tile is-child notification hidden-mobile">
+          <article className="tile is-child is-6 notification hidden-mobile">
             <figure className="image">
               <img src={NottifyHomeDesktop} className="bottom-row" />
             </figure>

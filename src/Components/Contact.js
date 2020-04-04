@@ -8,7 +8,7 @@ const About = () => {
   >
 
     <div className="hero-body about-body">
-      <div className="container is-widescreen">
+      <div className="container">
         <h1 className="title" >
           CONTACT
         </h1>

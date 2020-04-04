@@ -8,8 +8,10 @@ const Heading = () => {
     <section className="hero is-fullheight heading" id='heading'>
 
       <div className="hero-body">
-        <div className="container is-widescreen">
-          <h1 className="nameTitle text-flicker-in-glow">Michael Adair</h1>
+        <div className="container">
+          <div className="container">
+            <h1 className="nameTitle text-flicker-in-glow">Michael Adair</h1>
+          </div>
         </div>
       </div>
 

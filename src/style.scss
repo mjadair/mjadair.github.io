@@ -37,6 +37,8 @@ overflow-anchor: auto;
 
 
 .hero-body{
+  // height: 100%;
+  // width: 100%;
   padding: 0;
 }
 
@@ -47,23 +49,15 @@ overflow-anchor: auto;
 
 .container{
   margin: 0;
-  // height: 100%;
-  // width: 100%;
+  height: 100%;
+  width: 100%;
   text-align: center;
-
-
 }
 
 
-
-
-.container.has-text-centered{
-  width: 200%;
-}
 
 .nameTitle{
   color: gold;
-  width: 100%;
   font-size: 3.5rem;
   text-align: center;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -71,6 +65,11 @@ overflow-anchor: auto;
 
 }
 
+
+// .columns{
+//   width: 100%;
+//   height: 100%;
+// }
 
 .column {
   padding: 0;
@@ -82,13 +81,11 @@ overflow-anchor: auto;
   height: 100vh;
 }
 
+
 li {
   font-family: 'Baloo Thambi 2', cursive;
   list-style-type: none;
 }
-
-
-
 
 
 button{
@@ -102,6 +99,8 @@ button{
 }
 
 .hero{
+  // height: 100%;
+  // width: 100%;
   overflow-y: hidden;
   padding: 0;
 }
@@ -167,6 +166,7 @@ button{
   display: none;
 }
 
+
 .tile{
   background-color: black;
   object-fit: cover;
@@ -224,9 +224,7 @@ padding-top: 3vh;
   }
 
 
-  .notification a:not(.button):not(.dropdown-item){
-    text-decoration: none;
-  }
+
 
 //TripBit=======================================================================================
 
@@ -344,10 +342,10 @@ img.bottom-row{
   }
 }
 
-.space-image{
-width: 100%;
-height: 110%;
-}
+// .space-image{
+// width: 100%;
+// height: 110%;
+// }
 
 //Monkey Tennis====================================
 
@@ -417,11 +415,11 @@ height: 110%;
   width: 50%;
 }
 
-.calculator-container{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
+// .calculator-container{
+//   display: flex;
+//   flex-direction: column;
+//   align-items: flex-end;
+// }
 //Simpsons================================================
 
 

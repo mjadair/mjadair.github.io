@@ -8,7 +8,7 @@ const About = () => {
     id='about'>
 
     <div className="hero-body about-body">
-      <div className="container is-widescreen">
+      <div className="container has-text-centered">
         <h1 className="title">
           ABOUT
         </h1>
