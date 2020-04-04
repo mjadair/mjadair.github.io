@@ -15,7 +15,7 @@ const JSCalculator = ({ Slide }) => {
             <p className="calc-sub">A basic calculator using JavaScript and CSS FlexBox</p>
             <div className="content">
               <p>In my role as a teaching assistant at General Assembly, some of the first things we cover with students include CSS flexbox and building a basic JavaScript calculator before moving on to DOM Manipulation. I built this to show how these topics can combine. </p>
-              <ul>
+              <ul className="mobile-list">
                 <li className="left-list"><a id="calc-links" href="https://mjadair.github.io/JS-Calculator/" target="_blank" rel="noopener noreferrer">Use JS Calculator</a></li>
                 <li className="left-list"><a id="calc-links" href="https://github.com/mjadair/JS-Calculator" target="_blank" rel="noopener noreferrer">JS Calculator on Github</a> <i className="devicon-github-plain"></i></li>
               </ul>

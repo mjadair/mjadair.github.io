@@ -19,7 +19,7 @@ const Nottify = ({ Slide }) => {
             <p className="nottify-sub">A front-end React app that utilises an external API</p>
             <div className="content">
               <p>Nottify uses the Deezer API to let users search for their favourite music artists. The results show a chosen artist&apos;s albums and tracks and allows users to play 30 seconds from those tracks.</p>
-              <ul>
+              <ul className="mobile-list">
                 <li className="left-list"><a id="nottify-links" href="https://mjadair.github.io/Nottify/" target="_blank" rel="noopener noreferrer">Visit Nottify</a></li>
                 <li className="left-list"><a id="nottify-links" href="https://github.com/mjadair/Nottify" target="_blank" rel="noopener noreferrer">Nottify on GitHub </a> <i className="devicon-github-plain"></i></li>
               </ul>

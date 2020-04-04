@@ -17,7 +17,7 @@ const SpaceWars = ({ Slide }) => {
             <p className="space-sub">Grid-based JavaScript game</p>
             <div className="content">
               <p>Space Wars is a vanilla JavaScript game based on the arcade classic, Space Invaders</p>
-              <ul>
+              <ul className="mobile-list">
                 <li className="left-list"><a id="space-links" href="https://mjadair.github.io/Space-Wars/" target="_blank" rel="noopener noreferrer">Play Space Wars</a></li>
                 <li className="left-list"><a id="space-links" href="https://github.com/mjadair/Space-Wars" target="_blank" rel="noopener noreferrer">Space Wars on GitHub </a> <i className="devicon-github-plain"></i></li>
               </ul>

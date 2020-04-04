@@ -15,7 +15,7 @@ const SimpsonsQuoteGenerator = ({ Slide }) => {
             <p className="simpsons-sub">My first React App</p>
             <div className="content">
               <p>This simple app uses a Simpsons Random Quote API to fetch and display some basic information</p>
-              <ul>
+              <ul className="mobile-list">
                 <li className="left-list"><a id="simpsons-links" href="https://mjadair.github.io/The-Simpsons-Quote-Generator/" target="_blank" rel="noopener noreferrer">Generate some quotes!</a></li>
                 <li className="left-list"><a id="simpsons-links" href="https://github.com/mjadair/The-Simpsons-Quote-Generator" target="_blank" rel="noopener noreferrer">See the project on GitHub </a> <i className="devicon-github-plain"></i></li>
               </ul>

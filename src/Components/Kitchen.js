@@ -20,7 +20,7 @@ const Kitchen = ({ Slide }) => {
             <p className="kitchen-sub">A full stack MERN App</p>
             <div className="content">
               <p>The Kitchen allows users to search a database of recipe and restaurant recommendations. Logged in users can upload their own recipes, comment on recipes and have recipe shopping lists sent to their registered email address.</p>
-              <ul>
+              <ul className="mobile-list">
                 <li className="left-list"><a id="kitchen-links" href="https://thekitchen.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit The Kitchen</a></li>
                 <li className="left-list"><a id="kitchen-links" href="https://github.com/mjadair/The-Kitchen" target="_blank" rel="noopener noreferrer">The Kitchen on GitHub </a> <i className="devicon-github-plain"></i></li>
               </ul>

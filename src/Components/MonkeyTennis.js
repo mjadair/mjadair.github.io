@@ -16,7 +16,7 @@ const MonkeyTennis = ({ Slide }) => {
             <p className="monkey-sub">A game built with PhaserJS</p>
             <div className="content">
               <p>Monkey Tennis is a game built using the PhaserJS framework. Based on the classic arcade game Breakout, it uses Phaser&apos;s built in physics and graphics tools</p>
-              <ul>
+              <ul className="mobile-list">
                 <li className="left-list"><a id="monkey-links" href="https://mjadair.github.io/Monkey-Tennis/" target="_blank" rel="noopener noreferrer">Play Monkey Tennis 🐒</a></li>
                 <li className="left-list"><a id="monkey-links" href="https://github.com/mjadair/Monkey-Tennis" target="_blank" rel="noopener noreferrer">Monkey Tennis on GitHub </a> <i className="devicon-github-plain"></i></li>
               </ul>

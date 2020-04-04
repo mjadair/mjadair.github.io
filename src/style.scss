@@ -720,7 +720,9 @@ img.bottom-row{
 @media only screen and (max-width: 770px) {
 
 
-
+.project-title{
+  margin-top: 5vh;
+}
 
 article.tile.is-child.is-3.notification{
 justify-content: center;
@@ -728,6 +730,10 @@ justify-content: center;
 
 ul li{
   display: inline;
+}
+
+.left-list {
+  display: block;
 }
 
 .mobile-image {
@@ -741,6 +747,10 @@ height: 40%;
 
 .hidden-mobile {
   display: none;
+}
+
+button{
+  font-size: 1.5rem;
 }
 
 

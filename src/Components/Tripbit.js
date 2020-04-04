@@ -20,7 +20,7 @@ const TripBit = ({ Slide }) => {
             <p className="tripbit-sub">A full stack App with JS/React front-end {'&'} Python/Django back-end</p>
             <div className="content">
               <p>TripBit is a personal travel tracker and digital &apos;scratch map&apos; where logged in users can add the cities which they have visited to their profile. These cities are displayed on a map and the user is awarded badges based on where they have been. The user can also join groups and compete with friends. </p>
-              <ul>
+              <ul className="mobile-list">
                 <li className="left-list"><a id="Tripbit-links" href="http://trip-bit.herokuapp.com/#/" target="_blank" rel="noopener noreferrer">Visit TripBit</a></li>
                 <li className="left-list"><a id="Tripbit-links" href="https://github.com/mjadair/TripBit" target="_blank" rel="noopener noreferrer">TripBit on GitHub </a> <i id="Tripbit-logo" className="devicon-github-plain"></i></li>
               </ul>
