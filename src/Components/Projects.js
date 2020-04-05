@@ -27,7 +27,7 @@ const Projects = () => {
 
         <CarouselProvider
           naturalSlideWidth={100}
-          naturalSlideHeight={100}
+          naturalSlideHeight={125}
           isIntrinsicHeight={true}
           totalSlides={7}
           infinite={true}
