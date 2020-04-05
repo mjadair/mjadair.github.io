@@ -18,7 +18,7 @@ const Contact = () => {
           <div className="column is-half">
 
             <h3>Email <i className="fa fa-envelope"></i></h3>
-            <h3>GitHub <i className="devicon-github-plain"></i> </h3>
+            <h3>GitHub <i className="devicon-github-plain" id="github-contact"></i> </h3>
             <h3>LinkedIn <i className="fa fa-linkedin-square"></i> </h3>
 
           </div>
