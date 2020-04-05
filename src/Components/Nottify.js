@@ -11,9 +11,9 @@ const Nottify = ({ Slide }) => {
   return <Slide index={2}>
 
 
-    <div className="tile is-ancestor">
-      <div className="tile is-parent is-4">
-        <article className="tile is-child notification">
+    <div className="tile is-ancestor project-tile">
+      <div className="tile is-parent is-4 project-tile">
+        <article className="tile is-child notification project-tile">
           <div className="content">
             <p className="title project-title" id="nottify-title">Nottify</p>
             <p className="nottify-sub">A front-end React app that utilises an external API</p>
@@ -36,27 +36,27 @@ const Nottify = ({ Slide }) => {
           </div>
         </article>
       </div>
-      <div className="tile is-vertical">
-        <div className="tile is-parent is-12">
-          <article className="tile is-child is-9 notification ">
+      <div className="tile is-vertical project-tile">
+        <div className="tile is-parent is-12 project-tile">
+          <article className="tile is-child is-9 notification project-tile">
             <figure className="image">
               <img src={NottifyArtistsDesktop} className="home-desktop" />
             </figure>
           </article>
-          <article className="tile is-child is-3 notification ">
+          <article className="tile is-child is-3 notification project-tile">
             <figure className="image mobile-image">
               <img className="mobile-image" src={NottifyArtistsMobile} />
             </figure>
           </article>
         </div>
 
-        <div className="tile is-parent is-12 hidden-mobile">
-          <article className="tile is-child is-6 notification">
+        <div className="tile is-parent is-12 hidden-mobile project-tile">
+          <article className="tile is-child is-6 notification project-tile">
             <figure className="image">
               <img src={NottifyAlbumsDesktop} className="bottom-row" />
             </figure>
           </article>
-          <article className="tile is-child is-6 notification hidden-mobile">
+          <article className="tile is-child is-6 notification hidden-mobile project-tile">
             <figure className="image">
               <img src={NottifyHomeDesktop} className="bottom-row" />
             </figure>

@@ -140,12 +140,40 @@ button{
   background: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 }
 
+
+
+//ABOUT ====================================================================================================
+#about{
+  background-color: rgb(254, 254, 254);
+}
+
+#about-title{
+  font-size: 3rem;
+  text-shadow: none;
+  text-align: end;
+}
+
+.michael-image{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#michael-image{
+  width: 40%;
+  opacity: 0.8;
+  border-radius: 5%;
+  box-shadow: 0 0 8px 8px rgb(254, 254, 254) inset;
+}
+
+.tile{
+  background-color: rgb(254, 254, 254);
+}
+
 //Projects =================================================================================================
 
 
 
 #projects-title{
-  
   font-size: 3rem;
   text-align: end;
 }
@@ -167,7 +195,7 @@ button{
 }
 
 
-.tile{
+.project-tile{
   background-color: black;
   object-fit: cover;
 }

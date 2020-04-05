@@ -12,9 +12,9 @@ const TripBit = ({ Slide }) => {
 
   return <Slide index={0}>
 
-    <div className="tile is-ancestor">
-      <div className="tile is-parent is-4">
-        <article className="tile is-child notification">
+    <div className="tile is-ancestor project-tile">
+      <div className="tile is-parent is-4 project-tile">
+        <article className="tile is-child notification project-tile">
           <div className="content">
             <p className="title project-title" id="tripbit-title">TripBit</p>
             <p className="tripbit-sub">A full stack App with JS/React front-end {'&'} Python/Django back-end</p>
@@ -41,34 +41,34 @@ const TripBit = ({ Slide }) => {
           </div>
         </article>
       </div>
-      <div className='tile is-vertical'>
-        <div className="tile is-parent is-12">
-          <article className="tile is-child is-9 notification ">
+      <div className='tile is-vertical project-tile'>
+        <div className="tile is-parent is-12 project-tile">
+          <article className="tile is-child is-9 notification project-tile">
             <figure className="image">
               <img src={TripBitHomeDesktop} className="home-desktop" id="tripbit-desktop" />
             </figure>
           </article>
 
 
-          <article className="tile is-child is-3 notification ">
+          <article className="tile is-child is-3 notification project-tile">
             <figure className="image mobile-image">
               <img src={TripBitBadgesMobile} />
             </figure>
           </article>
 
         </div>
-        <div className="tile is-parent is-12 hidden-mobile">
-          <article className="tile is-child is-4 notification">
+        <div className="tile is-parent is-12 hidden-mobile project-tile">
+          <article className="tile is-child is-4 notification project-tile">
             <figure className="image">
               <img src={TripBitMapDesktop} className="bottom-row" />
             </figure>
           </article>
-          <article className="tile is-child is-4 notification hidden-mobile">
+          <article className="tile is-child is-4 notification hidden-mobile project-tile">
             <figure className="image">
               <img src={TripBitBadges2Desktop} className="bottom-row" />
             </figure>
           </article>
-          <article className="tile is-child is-4 notification hidden-mobile">
+          <article className="tile is-child is-4 notification hidden-mobile project-tile">
             <figure className="image">
               <img src={TripBitGroupsDesktop} className="bottom-row" />
             </figure>

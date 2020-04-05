@@ -7,9 +7,9 @@ const SimpsonsQuoteGenerator = ({ Slide }) => {
 
   return <Slide index={6}>
 
-    <div className="tile is-ancestor">
-      <div className="tile is-parent is-4">
-        <article className="tile is-child notification">
+    <div className="tile is-ancestor project-tile">
+      <div className="tile is-parent is-4 project-tile">
+        <article className="tile is-child notification project-tile">
           <div className="content">
             <p className="title project-title" id="simpsons-title">The Simpsons Random Quote Generator</p>
             <p className="simpsons-sub">My first React App</p>
@@ -33,8 +33,8 @@ const SimpsonsQuoteGenerator = ({ Slide }) => {
           </div>
         </article>
       </div>
-      <div className="tile is-parent is-12">
-        <article className="tile is-child is-8 notification">
+      <div className="tile is-parent is-12 project-tile">
+        <article className="tile is-child is-8 notification project-tile">
 
           <figure className="image">
             <img src={SimpsonsRandomQuoteDesktop} id="simpsons-pic" />

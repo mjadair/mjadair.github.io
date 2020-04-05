@@ -7,9 +7,9 @@ const JSCalculator = ({ Slide }) => {
 
   return <Slide index={7}>
 
-    <div className="tile is-ancestor">
-      <div className="tile is-parent is-4">
-        <article className="tile is-child notification">
+    <div className="tile is-ancestor project-tile">
+      <div className="tile is-parent is-4 project-tile">
+        <article className="tile is-child notification project-tile">
           <div className="content">
             <p className="title project-title" id="calculator-title">JS Calculator</p>
             <p className="calc-sub">A basic calculator using JavaScript and CSS FlexBox</p>
@@ -31,8 +31,8 @@ const JSCalculator = ({ Slide }) => {
           </div>
         </article>
       </div>
-      <div className="tile is-parent is-12">
-        <article className="tile is-child is-9 notification">
+      <div className="tile is-parent is-12 project-tile">
+        <article className="tile is-child is-9 notification project-tile">
           <figure className="image calculator-container">
             <img className="mobile-image" id="calculator-image" src={JSCalculatorScreenshot} />
           </figure>

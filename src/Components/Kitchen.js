@@ -12,9 +12,9 @@ const Kitchen = ({ Slide }) => {
 
   return <Slide index={1}>
 
-    <div className="tile is-ancestor">
-      <div className="tile is-parent is-4">
-        <article className="tile is-child notification">
+    <div className="tile is-ancestor project-tile">
+      <div className="tile is-parent is-4 project-tile">
+        <article className="tile is-child notification project-tile">
           <div className="content">
             <p className="title project-title" id="kitchen-title">The Kitchen</p>
             <p className="kitchen-sub">A full stack MERN App</p>
@@ -40,28 +40,28 @@ const Kitchen = ({ Slide }) => {
           </div>
         </article>
       </div>
-      <div className="tile is-vertical">
-        <div className="tile is-parent is-12">
-          <article className="tile is-child is-9 notification ">
+      <div className="tile is-vertical project-tile">
+        <div className="tile is-parent is-12 project-tile">
+          <article className="tile is-child is-9 notification project-tile">
             <figure className="image">
               <img src={KitchenHomeDesktop} className="home-desktop" />
             </figure>
           </article>
 
-          <article className="tile is-child is-3 notification ">
+          <article className="tile is-child is-3 notification project-tile">
             <figure className="image mobile-image">
               <img className="mobile-image" src={KitchenRecipeMobile} />
             </figure>
           </article>
 
         </div>
-        <div className="tile is-parent is-12 hidden-mobile">
+        <div className="tile is-parent is-12 hidden-mobile project-tile">
           <article className="tile is-child is-6 notification">
             <figure className="image">
               <img src={KitchenRecipesDesktop} className="bottom-row" />
             </figure>
           </article>
-          <article className="tile is-child is-6 notification hidden-mobile">
+          <article className="tile is-child is-6 notification hidden-mobile project-tile">
             <figure className="image">
               <img src={KitchenRecipeDesktop} className="bottom-row" />
             </figure>
