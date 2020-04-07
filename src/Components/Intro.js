@@ -15,7 +15,7 @@ const Intro = ({ Slide }) => {
             <div className="content">
               <p className="about-text">I&apos;m Michael. I used to make radio programmes at the BBC. I really enjoyed my time there, but wanted to use my creativity and love of technology to build things with purpose and continuously learn new, relevant skills. </p>
               <p className="about-text">I taught myself the very basics of Web Development and then enrolled in General Assembly&apos;s Software Engineering Immersive Programme. After completing the course, I was asked to stay on as a teaching assistant.</p>
-              <p className="about-text">Swipe right to find out more about me or scroll down to have a look at some of my projects and get in touch!</p>
+              <p className="about-text">Swipe right to find out more about me or scroll down to have a look at some of my projects and get in touch<span className="gold">!</span></p>
             </div>
           </div>
         </article>

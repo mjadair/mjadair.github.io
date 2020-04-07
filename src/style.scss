@@ -206,6 +206,10 @@ color: white;
   font-weight: bold;
 }
 
+.gold{
+  color: gold;
+}
+
 
 //CONTACT =================================================================================================
 
@@ -236,8 +240,42 @@ color: white;
   }
 
   .software-icon{
+    margin-top: 1vh;
     font-size: 3rem;
     color: black;
+    -webkit-animation-name: blackGold;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 5s; 
+  }
+
+  .software-icon-gold{
+    margin-top: 3vh;
+    font-size: 3rem;
+    color:gold;
+    -webkit-animation-name: goldBlack;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 5s; 
+
+  }
+
+
+  @-webkit-keyframes blackGold {  
+    0% { color: black; }
+    50% { color: black; }
+    51% { color: gold; }
+    100% { color: gold; }
+  }
+
+  @-webkit-keyframes goldBlack {  
+    0% { color: gold; }
+    50% { color: gold; }
+    51% { color: black; }
+    100% { color: black; }
+  }
+
+  .software-columns{
+    margin-top: 3vh;
+    padding: 2vw;
   }
 
 //Projects =================================================================================================
