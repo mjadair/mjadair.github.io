@@ -17,7 +17,7 @@ const Projects = () => {
 
   return <section className='hero is-fullheight' id="projects">
 
-    <h1 className="nameTitle hero-head" id="projects-title">Projects</h1>
+    <h1 className="nameTitle hero-head" id="projects-title">MA</h1>
 
 
     <div className="hero-body">
