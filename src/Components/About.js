@@ -26,9 +26,8 @@ const About = () => {
           isIntrinsicHeight={true}
           totalSlides={3}
           infinite={true}
-          // interval={500}
-          // playDirection={'forward'}
-          // isPLaying={true}
+          interval={10000}
+          isPlaying={true}
           lockOnWindowScroll={true}
           className="slider-container"
         >

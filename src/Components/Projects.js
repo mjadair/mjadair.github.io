@@ -31,6 +31,8 @@ const Projects = () => {
           isIntrinsicHeight={true}
           totalSlides={7}
           infinite={true}
+          interval={10000}
+          isPlaying={true}
           lockOnWindowScroll={true}
           className="slider-container"
         >

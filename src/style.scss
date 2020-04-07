@@ -978,3 +978,13 @@ button{
 
 
 }
+
+
+
+@media only screen and (min-height: 1000px) {
+
+  .column.is-narrow{
+    display: none;
+  }
+
+}
