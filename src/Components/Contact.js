@@ -18,8 +18,8 @@ const Contact = () => {
 
         <ul className="contact-list">
           <li> <a href="mailto:mjadair@gmail.com" className="contact-methods contact-overline">Email   <i className="fa fa-envelope contact-image"></i></a> </li>
-          <li> <a href="https://github.com/mjadair" className="contact-methods"><span className="contact-overline">GitHub  </span> <i className="devicon-github-plain contact-image" id="github-contact"></i> </a> </li>
-          <li> <a href="https://www.linkedin.com/in/michael-adair1/"className="contact-methods contact-overline">LinkedIn  <i className="fa fa-linkedin-square contact-image"></i> </a> </li>
+          <li> <a href="https://github.com/mjadair" target="_blank" rel="noopener noreferrer" className="contact-methods"><span className="contact-overline">GitHub  </span> <i className="devicon-github-plain contact-image" id="github-contact"></i> </a> </li>
+          <li> <a href="https://www.linkedin.com/in/michael-adair1/" target="_blank" rel="noopener noreferrer" className="contact-methods contact-overline">LinkedIn  <i className="fa fa-linkedin-square contact-image"></i> </a> </li>
 
         </ul>
 
