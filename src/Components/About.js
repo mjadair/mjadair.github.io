@@ -1,5 +1,5 @@
 import React from 'react'
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, DotGroup } from 'pure-react-carousel'
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel'
 import 'pure-react-carousel/dist/react-carousel.es.css'
 
 import Intro from './Intro'
@@ -18,7 +18,7 @@ const About = () => {
     <div className="hero-body">
 
 
-      <div className="columns is-mobile">
+      <div className="columns">
 
         <CarouselProvider
           naturalSlideWidth={100}
