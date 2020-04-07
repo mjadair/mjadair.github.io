@@ -218,6 +218,10 @@ color: white;
   color: gold;
 }
 
+.notification a:not(.button):not(.dropdown-item).gold{
+  color: gold;
+}
+
 .overline{
   margin-top: 2vh;
   text-align: left;
