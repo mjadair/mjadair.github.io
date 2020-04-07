@@ -168,12 +168,20 @@ color: white;
 }
 
 #about-heading{
+  font-size: 5vw;
   color: black;
   text-decoration: underline gold;
   margin-bottom: 2vh;
   -webkit-animation: fade-in-bottom 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: fade-in-bottom 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
  
+}
+
+#dev-heading{
+  color: black;
+  text-decoration: underline gold;
+  font-size: 2.8vw;
+
 }
 
 .michael-image{
@@ -210,6 +218,13 @@ color: white;
   color: gold;
 }
 
+.overline{
+  margin-top: 2vh;
+  text-align: left;
+  text-decoration: overline gold;
+  font-weight: normal;
+  
+}
 
 //CONTACT =================================================================================================
 
@@ -912,6 +927,11 @@ ul li{
   li {
   display: block;
   }
+}
+
+#dev-heading{
+  font-size: 2.25rem;
+
 }
 
 .mobile-image {

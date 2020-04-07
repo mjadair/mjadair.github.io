@@ -4,6 +4,7 @@ import 'pure-react-carousel/dist/react-carousel.es.css'
 
 import Intro from './Intro'
 import Software from './Software'
+import OtherExperience from './OtherExperience'
 
 
 
@@ -23,7 +24,7 @@ const About = () => {
           naturalSlideWidth={100}
           naturalSlideHeight={100}
           isIntrinsicHeight={true}
-          totalSlides={2}
+          totalSlides={3}
           infinite={true}
           // interval={500}
           // playDirection={'forward'}
@@ -41,6 +42,7 @@ const About = () => {
             <div className="column">
               <Intro Slide={Slide} />
               <Software Slide={Slide} />
+              <OtherExperience Slide={Slide} />
             </div>
           </Slider>
 

@@ -10,7 +10,7 @@ const Software = ({ Slide }) => {
       <div className="tile is-parent is-4 about-tile">
         <article className="tile is-child notification about-tile">
           <div className="content">
-            <p className="title project-title" id="about-heading">Software</p>
+            <p className="title project-title" id="dev-heading">Development Experience</p>
             <div className="content">
               <p className="about-text">
                 I&apos;m currently a Teaching Assistant for General Assembly&apos;s Software Engineering Immersive course in London. I completed the course myself in February 2020.
@@ -24,7 +24,9 @@ const Software = ({ Slide }) => {
       <div className="tile is-parent is-10 about-tile">
         <article className="tile is-child is-9 notification about-tile">
           <div className="content">
-
+            <p className="about-text overline">
+            Below are some of the tools I am most familiar with working with. I&apos;m continuously working to improve my knowledge and skillset and can usually be found experimenting with new projects, software languages and frameworks. You see some of my finished projects further down this page.
+            </p>
             <div className="columns is-mobile is-multiline software-columns">
               <div className="column is-3"><i className="devicon-javascript-plain software-icon"></i><div className="label">JavaScript</div></div>
               <div className="column is-3"><i className="devicon-python-plain software-icon"></i><div className="label">Python</div></div>
@@ -43,7 +45,7 @@ const Software = ({ Slide }) => {
               <div className="column is-3"><i className="devicon-mongodb-plain software-icon-gold"></i><div className="label">MongoDB</div></div>
               <div className="column is-3"><i className="devicon-postgresql-plain software-icon-gold"></i><div className="label">PostgreSQL</div></div>
               <div className="column is-3"><i className="devicon-mocha-plain software-icon-gold"></i><div className="label">Mocha.js</div></div>
-              <div className="column is-3"><i className="devicon-babel-plain software-icon-gold"></i><div className="label">Babel</div></div> 
+              <div className="column is-3"><i className="devicon-babel-plain software-icon-gold"></i><div className="label">Babel</div></div>
               <div className="column is-3"><i className="devicon-git-plain software-icon"></i><div className="label">Git</div></div>
               <div className="column is-3"><i className="devicon-github-plain software-icon"></i><div className="label">GitHub</div></div>
               <div className="column is-3"><i className="devicon-heroku-original software-icon"></i><div className="label">Heroku</div></div>
