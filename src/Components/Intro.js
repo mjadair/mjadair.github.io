@@ -11,10 +11,10 @@ const Intro = ({ Slide }) => {
       <div className="tile is-parent is-4 about-tile">
         <article className="tile is-child notification about-tile">
           <div className="content">
-            <p className="title project-title">Hello!</p>
+            <p className="title project-title about-heading">Hello!</p>
             <p className="subtitle">Here are words</p>
             <div className="content">
-              <p className="about-text">I am writing content in here about me and myself </p>
+              <p className="about-text">I&apos;m Michael. I used to make radio programmes at the BBC. I really enjoyed my time there, but wanted to use my creativity and love of technology to build things with purpose and continuously learn new, relevant skills. </p>
     
 
             </div>

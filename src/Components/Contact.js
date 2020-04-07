@@ -9,30 +9,31 @@ const Contact = () => {
 
       <div className="container">
 
-        <div className="columns is-mobile is-centered">
-
-
-
-
-
-          <div className="column is-half">
-
-            <h3>Email <i className="fa fa-envelope"></i></h3>
-            <h3>GitHub <i className="devicon-github-plain" id="github-contact"></i> </h3>
-            <h3>LinkedIn <i className="fa fa-linkedin-square"></i> </h3>
-
-          </div>
 
 
 
 
 
 
-        </div>
+
+        <ul className="contact-list">
+          <li> <p className="contact-methods contact-overline">Email   <i className="fa fa-envelope contact-image"></i></p> </li>
+          <li> <p className="contact-methods"><span className="contact-overline">GitHub  </span> <i className="devicon-github-plain contact-image" id="github-contact"></i> </p> </li>
+          <li> <p className="contact-methods contact-overline">LinkedIn  <i className="fa fa-linkedin-square contact-image"></i> </p> </li>
+
+        </ul>
+
+
+
+
+
+
 
       </div>
 
     </div>
+
+
 
   </section >
 
