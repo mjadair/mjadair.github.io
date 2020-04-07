@@ -236,6 +236,10 @@ color: white;
   width: 100%;
   li{
     padding: 3vh;
+    :hover{
+      color: gold;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
   }
 
 }
@@ -246,6 +250,12 @@ color: white;
   text-align: center;
   text-shadow: -1px 0 gold, 0 1px gold, 1px 0 gold, 0 -1px gold;
   font-family: 'Baloo Thambi 2', cursive;
+
+
+}
+
+.contact-methods.contact-overline{
+
 }
 
   .contact-image{
@@ -255,6 +265,7 @@ color: white;
 
   .contact-overline{
      text-decoration: overline;
+    
 
   }
 
