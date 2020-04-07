@@ -922,6 +922,13 @@ img.bottom-row{
 @media only screen and (max-width: 770px) {
 
 
+  a.navbar-item{
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+
+
 .project-title{
   margin-top: 5vh;
 }
@@ -945,7 +952,7 @@ ul li{
 }
 
 #dev-heading{
-  font-size: 2.25rem;
+  font-size: 1.9rem;
 
 }
 
