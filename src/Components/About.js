@@ -49,8 +49,6 @@ const About = () => {
           <div className="column is-narrow column-right">
             <ButtonNext>▷</ButtonNext>
           </div>
-
-<DotGroup />
         </CarouselProvider>
 
       </div>
