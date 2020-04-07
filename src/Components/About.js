@@ -3,6 +3,7 @@ import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, DotGroup } fro
 import 'pure-react-carousel/dist/react-carousel.es.css'
 
 import Intro from './Intro'
+import Software from './Software'
 
 
 
@@ -24,6 +25,9 @@ const About = () => {
           isIntrinsicHeight={true}
           totalSlides={2}
           infinite={true}
+          // interval={500}
+          // playDirection={'forward'}
+          // isPLaying={true}
           lockOnWindowScroll={true}
           className="slider-container"
         >
@@ -36,6 +40,7 @@ const About = () => {
           <Slider className="slider-container container">
             <div className="column">
               <Intro Slide={Slide} />
+              <Software Slide={Slide} />
             </div>
           </Slider>
 
