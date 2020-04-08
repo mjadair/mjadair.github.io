@@ -25,7 +25,7 @@ const OtherExperience = ({ Slide }) => {
         <article className="tile is-child is-9 notification about-tile">
 
           <figure className="image michael-image">
-            <img src={DID} />
+            <img className="mobile-image" src={DID} />
           </figure>
           <p className="about-text overline">With Tom Hanks </p>
         </article>

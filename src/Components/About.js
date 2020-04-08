@@ -17,40 +17,46 @@ const About = () => {
 
     <div className="hero-body">
 
-
-      <div className="columns">
-
-        <CarouselProvider
-          naturalSlideWidth={100}
-          naturalSlideHeight={100}
-          isIntrinsicHeight={true}
-          totalSlides={3}
-          infinite={true}
-          interval={10000}
-          isPlaying={true}
-          lockOnWindowScroll={true}
-          className="slider-container"
-        >
+      <CarouselProvider
+        naturalSlideWidth={100}
+        naturalSlideHeight={100}
+        isIntrinsicHeight={true}
+        totalSlides={3}
+        infinite={true}
+        interval={10000}
+        isPlaying={true}
+        lockOnWindowScroll={true}
+        className="slider-container"
+      >
 
 
-          <div className="column is-narrow column-left">
+        <div className="columns is-mobile is-multiline">
+
+
+
+
+          <div className="column is-half column-left">
             <ButtonBack>◁</ButtonBack>
           </div>
 
+          <div className="column is-half column-right">
+            <ButtonNext>▷</ButtonNext>
+          </div>
+
           <Slider className="slider-container container">
-            <div className="column">
+            <div className="column is-full">
               <Intro Slide={Slide} />
               <Software Slide={Slide} />
               <OtherExperience Slide={Slide} />
             </div>
           </Slider>
 
-          <div className="column is-narrow column-right">
-            <ButtonNext>▷</ButtonNext>
-          </div>
-        </CarouselProvider>
+       
 
-      </div>
+
+        </div>
+
+      </CarouselProvider>
 
     </div>
 

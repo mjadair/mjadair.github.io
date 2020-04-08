@@ -21,29 +21,37 @@ const Projects = () => {
 
 
     <div className="hero-body">
+      <CarouselProvider
+        naturalSlideWidth={100}
+        naturalSlideHeight={125}
+        isIntrinsicHeight={true}
+        totalSlides={7}
+        infinite={true}
+        interval={10000}
+        isPlaying={true}
+        lockOnWindowScroll={true}
+        className="slider-container"
+      >
 
 
-      <div className="columns is-mobile">
-
-        <CarouselProvider
-          naturalSlideWidth={100}
-          naturalSlideHeight={125}
-          isIntrinsicHeight={true}
-          totalSlides={7}
-          infinite={true}
-          interval={10000}
-          isPlaying={true}
-          lockOnWindowScroll={true}
-          className="slider-container"
-        >
+        <div className="columns is-mobile is-multiline">
 
 
-          <div className="column is-narrow column-left">
+          <div className="column is-half column-left">
             <ButtonBack>◁</ButtonBack>
           </div>
 
+          <div className="column is-half column-right">
+            <ButtonNext>▷</ButtonNext>
+          </div>
+
+
+
+
+
+
           <Slider className="slider-container container">
-            <div className="column">
+            <div className="column is-full">
               <TripBit Slide={Slide} />
               <Kitchen Slide={Slide} />
               <Nottify Slide={Slide} />
@@ -55,14 +63,13 @@ const Projects = () => {
 
           </Slider>
 
-          <div className="column is-narrow column-right">
-            <ButtonNext>▷</ButtonNext>
-          </div>
 
-        </CarouselProvider>
 
-      </div>
 
+
+        </div>
+
+      </CarouselProvider>
     </div>
 
   </section >

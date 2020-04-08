@@ -69,12 +69,14 @@ overflow-anchor: auto;
 
 
 
-.columns{
-  height: inherit;
-}
+
 
 .column {
   padding: 0;
+}
+
+.column.is-half{
+  height: 10vh;
 }
 
 .article{
@@ -95,9 +97,15 @@ button{
   background-color: none;
   font-size: 2rem;
   color: gold;
-  margin-top: 20vh;
+  // margin-top: 20vh;
   margin-left: 2vw;
 }
+
+.column-right{
+  text-align: right;
+}
+
+
 
 .hero{
   overflow-y: hidden;
@@ -932,9 +940,9 @@ img.bottom-row{
   // }
 
 
-.project-title{
-  margin-top: 5vh;
-}
+// .project-title{
+//   margin-top: 2vh;
+// }
 
 article.tile.is-child.is-3.notification{
 justify-content: center;
@@ -972,19 +980,12 @@ height: 40%;
   display: none;
 }
 
-button{
-  font-size: 1.5rem;
-}
-
-
-}
-
-
-
-// @media only screen and (min-height: 700px) {
-
-//   .column.is-narrow{
-//     display: none;
-//   }
-
+// button{
+//   font-size: 1.5rem;
 // }
+
+
+}
+
+
+
