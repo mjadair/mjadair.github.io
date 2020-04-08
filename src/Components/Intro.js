@@ -23,7 +23,7 @@ const Intro = ({ Slide }) => {
       <div className="tile is-parent is-10 about-tile">
         <article className="tile is-child is-9 notification about-tile">
           <figure className="image michael-image">
-            <img id="michael-image" className="mobile-image" src={MichaelImage} />
+            <img id="michael-image" src={MichaelImage} />
           </figure>
         </article>
 
