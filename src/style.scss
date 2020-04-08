@@ -37,8 +37,8 @@ overflow-anchor: auto;
 
 
 .hero-body{
+  padding-top: 0;
   height: 100%;
-  padding: 0;
 }
 
 
@@ -71,18 +71,18 @@ overflow-anchor: auto;
 
 
 
-.column {
+// .column {
+//   padding: 0;
+// }
+
+.column.is-half{
   padding: 0;
 }
 
-.column.is-half{
-  height: 10vh;
-}
-
-.article{
-  padding-bottom: 2vh;
-  height: 100vh;
-}
+// .article{
+//   padding-bottom: 2vh;
+//   height: 100vh;
+// }
 
 
 li {
@@ -97,8 +97,6 @@ button{
   background-color: none;
   font-size: 2rem;
   color: gold;
-  // margin-top: 20vh;
-  margin-left: 2vw;
 }
 
 .column-right{
@@ -109,7 +107,6 @@ button{
 
 .hero{
   overflow-y: hidden;
-  padding: 0;
 }
 
 
@@ -212,9 +209,7 @@ color: white;
 }
 
 .about-tile{
-  margin-left: 2vw;
   background-color: rgb(254, 254, 254);
-  object-fit: cover;
 }
 
 .about-text{
@@ -262,9 +257,6 @@ color: white;
 
 }
 
-.contact-methods.contact-overline{
-
-}
 
   .contact-image{
     margin-left: 1vw;
@@ -311,10 +303,10 @@ color: white;
     100% { color: black; }
   }
 
-  .software-columns{
-    margin-top: 3vh;
-    padding: 2vw;
-  }
+  // .software-columns{
+  //   margin-top: 3vh;
+  //   padding: 2vw;
+  // }
 
 //Projects =================================================================================================
 
@@ -325,8 +317,12 @@ color: white;
   text-align: end;
 }
 
-.level{
-  margin: 1vh;
+// .level{
+//   margin: 1vh;
+// }
+
+.tile.is-ancestor{
+  padding: none;
 }
 
 
@@ -338,7 +334,10 @@ color: white;
 }
 
 
+
+
 .project-tile{
+  padding: none;
   background-color: black;
   object-fit: cover;
 }
@@ -375,15 +374,15 @@ p{
   font-family: 'Baloo Thambi 2', cursive;
 }
 
-article.tile.is-child.notification{
-  padding-bottom: 3vh;
-}
+// article.tile.is-child.notification{
+//   padding-bottom: 3vh;
+// }
 
 
-.slider-container{
-  display: flex;
-  flex-shrink: 1;
-}
+// .slider-container{
+//   display: flex;
+//   flex-shrink: 1;
+// }
 
 
 .mobile-image {
@@ -392,6 +391,11 @@ padding-top: 3vh;
 
   .home-desktop{
     margin-top: 3vh;
+    width: 80%;
+  }
+
+  .image.home-desktop{
+    width: 90%;
   }
 
 
@@ -419,6 +423,7 @@ padding-top: 3vh;
 
 #tripbit-desktop{
   border: 3px solid  rgb(97, 67, 0) ;
+  width: 95%;
 }
 
 img.bottom-row{
@@ -443,6 +448,10 @@ img.bottom-row{
   color: whitesmoke;
   font-size: 3rem;
   margin-bottom: 0;
+}
+
+#kitchen-desktop{
+  width: 95%;
 }
 
 .kitchen-sub{

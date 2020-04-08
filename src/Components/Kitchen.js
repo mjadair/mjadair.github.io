@@ -58,7 +58,7 @@ const Kitchen = ({ Slide }) => {
         <div className="tile is-parent is-12 hidden-mobile project-tile">
           <article className="tile is-child is-6 notification">
             <figure className="image">
-              <img src={KitchenRecipesDesktop} className="bottom-row" />
+              <img src={KitchenRecipesDesktop} className="bottom-row" id="kitchen-desktop" />
             </figure>
           </article>
           <article className="tile is-child is-6 notification hidden-mobile project-tile">

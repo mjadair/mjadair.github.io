@@ -44,7 +44,7 @@ const About = () => {
           </div>
 
           <Slider className="slider-container container">
-            <div className="column is-full">
+            <div className="column is-12">
               <Intro Slide={Slide} />
               <Software Slide={Slide} />
               <OtherExperience Slide={Slide} />
