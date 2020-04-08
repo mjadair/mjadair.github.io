@@ -65,24 +65,9 @@ overflow-anchor: auto;
 }
 
 
-
-
-
-
-
-
-// .column {
-//   padding: 0;
-// }
-
 .column.is-half{
   padding: 0;
 }
-
-// .article{
-//   padding-bottom: 2vh;
-//   height: 100vh;
-// }
 
 
 li {
@@ -102,7 +87,6 @@ button{
 .column-right{
   text-align: right;
 }
-
 
 
 .hero{
@@ -173,7 +157,7 @@ color: white;
 }
 
 #about-heading{
-  font-size: 5vw;
+  font-size: 8vw;
   color: black;
   text-decoration: underline gold;
   margin-bottom: 2vh;
@@ -194,10 +178,11 @@ color: white;
   flex-direction: row-reverse;
 }
 
+
 #michael-image{
   width: 60%;
+  margin: 0;
   opacity: 0.8;
-  margin-right: 2vw;
   border-radius: 5%;
   box-shadow: 0 0 8px 8px rgb(254, 254, 254) inset;
   -webkit-animation: fade-in-bottom 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -944,15 +929,6 @@ img.bottom-row{
     font-size: 1.5rem;
   }
   
-  // .column.is-narrow{
-  //   display: none;
-  // }
-
-
-// .project-title{
-//   margin-top: 2vh;
-// }
-
 article.tile.is-child.is-3.notification{
 justify-content: center;
 }
@@ -977,21 +953,16 @@ ul li{
 }
 
 .mobile-image {
-height: 40%;
  width: 40%; 
- padding: 0;
- display: flex;
- flex-direction: column;
- align-content: center;
+}
+
+.michael-image{
+  display: block;
 }
 
 .hidden-mobile {
   display: none;
 }
-
-// button{
-//   font-size: 1.5rem;
-// }
 
 
 }
