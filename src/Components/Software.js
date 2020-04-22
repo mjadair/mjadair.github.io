@@ -25,7 +25,7 @@ const Software = ({ Slide }) => {
         <article className="tile is-child is-9 notification about-tile">
           <div className="content">
             <p className="about-text overline">
-            Below are some of the tools I am most familiar with working with. I&apos;m continuously working to improve my knowledge and skillset and can usually be found experimenting with new projects, software languages and frameworks. You see some of my finished projects further down this page.
+            Below are some of the tools I am most familiar with working with. I&apos;m continuously working to improve my knowledge and skillset and can usually be found experimenting with new projects, software languages and frameworks. You can see some of my finished projects further down this page.
             </p>
             <div className="columns is-mobile is-multiline software-columns">
               <div className="column is-3"><i className="devicon-javascript-plain software-icon"></i><div className="label">JavaScript</div></div>
