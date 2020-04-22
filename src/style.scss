@@ -112,6 +112,10 @@ button{
   display: flex;
   justify-content: center;
   
+  a{
+    border-bottom: 3px solid gold;
+  }
+  
   a:hover {
     color: black;
     background-color: transparent;
