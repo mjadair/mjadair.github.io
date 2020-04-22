@@ -52,11 +52,6 @@ const Software = ({ Slide }) => {
               <div className="column is-3"><i className="devicon-visualstudio-plain software-icon"></i><div className="label">VSCode</div></div>
             </div>
 
-            {/* <p className="about-text">
-            
-              </p>
-            <p className="about-text">Working as a </p>
-            <p className="about-text"></p> */}
           </div>
 
         </article>

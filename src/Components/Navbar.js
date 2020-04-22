@@ -8,11 +8,7 @@ const Navbar = () => {
 
 
   return <nav className="navbar is-fixed-bottom" id="nav-styling">
-    {/* <AnchorLink href="#heading" className="navbar-item">
-      
-    Home
-  
-    </AnchorLink> */}
+
     <AnchorLink href="#about" className="navbar-item link">
       About 
     </AnchorLink>
