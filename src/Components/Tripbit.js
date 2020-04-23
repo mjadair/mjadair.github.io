@@ -78,9 +78,6 @@ const TripBit = ({ Slide }) => {
 
     </div>
 
-
-    {/* </div > */}
-
   </Slide>
 
 }
